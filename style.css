@@ -1,0 +1,396 @@
+/*  this stylesheet is designed with desktop first ideology */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+body{
+    padding: 0px;
+    background-image: url(img/background.jpg);    
+    font-family: monospace;
+    overflow-x: hidden;
+
+}
+.container-fluid{
+    padding: 0px;
+}
+
+.navbar{
+    background-color: rgba(74,197,238, 0.5);
+} 
+.img-logo{
+    height:81px;
+    width:203px;
+}
+li{		
+    padding-right:10px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #153e6f;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: orange;
+}
+#nav-bar{
+    display: block;
+}
+
+.bgimg{
+    background-image: url(img/bg.jpeg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+#arrow{
+    padding-top: 100px;
+}
+#arrow-diag{
+    border: solid 1px ;
+    border-radius: 10px; 
+    padding: 10px;  
+    background-color: #deeeff;
+    color: black;
+    box-shadow: 3px 3px 35px black;
+   
+}
+#slider {
+    overflow: hidden;
+  
+    
+ }
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin:0;
+    left:0;
+    animation:20s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0% {
+       left:0%
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: -300%;
+    }
+    
+    95%{
+        left: -300%;
+    }
+
+    100%{
+        left: -400%
+    }
+
+}
+
+#intro,#vision,#apacHousing{
+    padding-top:40px;
+    overflow-x: hidden;
+}
+#intro #intro-heading , #vision h1, #apacHousing h1 ,#societalimpact h3 {
+    padding: 10px;
+    background-color: #153e6f;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+
+
+
+
+.card{
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 10px black;
+    margin: 10px;
+
+}
+
+.card .card-title h3 {
+    background-color: #153e6f;
+    padding: 10px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.blink {
+    animation: blink 3s infinite linear;
+}
+@keyframes blink{
+	0% {
+		opacity: 0;
+	}
+	20%{
+		opacity: .5;
+	}
+	40%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 0;
+	}	
+}
+.card-body{
+    background-color: #deeeff;
+    transition: 0.25s;
+   
+}
+
+.card img{
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.card ul li{
+    font-size: 18px;
+}
+#vision {
+    box-shadow: 3px 3px 15px grey;
+    border-radius: 30px;
+    background-color: white;
+    overflow-x: hidden;
+ 
+}
+#vision img{
+    width: 80%;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    padding-top: 110px;
+}
+
+
+#apacHousing h3{
+   
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 20px;
+    
+} 
+
+#apacHousing #cardtitle{
+    color: white;
+}
+
+#apacHousing ul li{
+    font-size: 11px;
+}
+
+#societalimpact{
+    margin-top: 30px;
+    background-color: #fff;
+    overflow-x: hidden;
+
+}
+#statsinfo h4{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color:#153e6f;
+    color: whitesmoke;
+
+}
+#companyname{
+    color: orange;
+    font-weight: bold;
+    font-size:30px ;
+}
+label{
+    display: block;
+}
+@media screen and (max-width : 991px){
+
+    nav ul li a {
+        text-align: center;
+    }
+    nav ul li{
+        padding-top: 10px;
+    }
+
+    #intro h1, #vision h1,#apacHousing h1{
+        font-size: 30px;
+    }
+
+    .card ul li {
+        font-size: 16px;
+    }
+
+    .card-title h3{
+        font-size: 20px;
+    }
+    .card img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+    }
+    #vision img{
+
+        width: 70%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    #vision .row #img2{
+        padding-top: 0%;
+    }
+
+    #apacHousing ul li{
+        font-size: 16px;
+    }
+
+    #apacHousing h3{
+        font-size: 20px;
+    }
+    #apacHousing div h4{
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+    #statsinfo{
+        opacity: 1;
+    }
+
+}
+
+
+@media screen and (max-width:450px){
+
+ 
+    .img-logo{
+        height:40px;
+        width:100px;
+    }
+    .bgimg{
+        margin-top: 20px;
+        background-image: url(img/bg.jpeg);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .navbar ul li{
+        padding-right: 0px;
+        font-size: 17px;
+    }
+    #arrow{
+        padding-top: 40px;
+    }
+    #arrow-diag{
+        border: solid 1px ;
+        border-radius: 10px; 
+        padding: 10px;  
+        background-color: #deeeff;
+        box-shadow: 3px 3px 15px grey;
+        font-size: 15px;
+
+    }
+    .card img{
+        height: 100px;
+        width: 100px;
+    }
+
+
+
+    #intro h1, #vision h1,#apacHousing h1{
+        font-size: 16px;
+    }
+
+
+
+    .card{
+        margin-left:20px;
+        margin-right:20px;
+
+    }
+    .card ul li {
+        font-size: 11px;
+    }
+    .card .card-title h3{
+        font-size: 15px;
+    }
+    #vision{
+        width:100%;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+    #vision img{
+        width: 80%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    #vision .row #img2{
+        padding-top: 0px;
+    }
+
+    #apacHousing h3{
+        font-size: 15px;
+    }
+    #apacHousing ul li{
+        font-size: 11px;
+    }
+    #apacHousing div h4{
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+    #statsinfo{
+        opacity: 1;
+    }
+
+
+    footer{
+        padding: 15px;
+    }
+
+}

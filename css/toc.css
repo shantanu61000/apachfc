@@ -27,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px 10px grey;
+    cursor: pointer;
 
 }
 .col-5 a{
@@ -41,8 +42,53 @@ body{
     font-size: 15px;
     text-shadow:2px 2px 30px wheat;
     text-align: center;
+    transition: all 0.3s ease;
+
 }
 
+.col-5 a h5:hover{        
+    font-size: 17px;
+}
+.grey{
+    background-color:rgba(165, 165, 165,0.7);
+    transition: all 0.3s ease-in-out;
+}
+.grey:hover{
+    background-color:rgba(165, 165, 165,1) 
+}
+.orange{
+    background-color: rgba(255, 184, 52, 0.7);
+    transition: all 0.3s ease-in-out;
+
+}
+.orange:hover{
+    background-color: rgba(255, 184, 52, 1);
+
+}
+.yellow{
+    background-color: rgba(255, 255, 90,0.7);
+    transition: all 0.3s ease-in-out;
+
+}
+.yellow:hover{
+    background-color: rgba(255, 255, 90,1);
+
+}
+.blue{
+    background-color:rgba(131, 220, 255, 0.7) ;
+    transition: all 0.3s ease-in-out;
+
+}
+.blue:hover{
+    background-color:rgba(131, 220, 255, 1) ;
+}
+.green{
+    background-color: rgba(123, 255, 123,0.7);
+    transition: all 0.3s ease-in-out;
+}
+.green:hover{
+    background-color: rgba(123, 255, 123,1);
+}
 footer{
     min-height: 100px;
     background-color: #153e6f;
@@ -50,8 +96,15 @@ footer{
 
 @media(min-width:600px){
     .col-5{
-        min-height: 300px;
-        
+        min-height: 300px;        
+    }
+    .col-5 a h5:hover{        
+        font-size: 25px;
+    }
+
+    .col-5 a h5{
+        font-size: 20px;
+        text-align: center;     
     }
    
 }
@@ -60,6 +113,10 @@ footer{
     .col-5{
         margin: 40px;
         box-shadow: 2px 5px 35px black;
+    }
+    .col-5:hover{
+       font-size: 35px;
+       
     }
     .col-5 a h5{
         color: #153e6f;

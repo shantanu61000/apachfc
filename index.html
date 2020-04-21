@@ -1,31 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Home </title>
+        <title> Home</title>
         <link rel="icon" href="img/titielogo.png" type="image/icon type">
         <link rel="icon" href="img/titielogo.png.png" type="image/icon type">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-            $(".card .card-title h3").click(function(){
-               if($(this).hasClass("blink")){
-                $(".card .card-title h3").removeClass("blink");
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-               }
-               else{
-                   $("#apacHousing h3").addClass("blink");
-              
 
-               }
-            });
-            });
-        </script>
         <link rel="stylesheet" href="style.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,12 +31,8 @@
                                     <li class="nav-item"><a class="nav-link" href="aapkaTraining.html">AAPKA-TRAINING</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#product">OUR-SERVICES</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#contactus">CONTACT-US</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="aapkaTraining.html">AAPKA TRAINING</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#product">OUR SERVICES</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#contactus">CONTACT US</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#branch">BRANCH</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#TAB5"></a></li>
-                                </ul>
+                                    <li class="nav-item"><a class="nav-link" href="aapkaTraining.html">BRANCH</a></li>
+                                 </ul>
                             </div>
                     </div>
                 </nav>
@@ -321,6 +300,25 @@
 
    
 </footer>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $(".card .card-title h3").click(function(){
+       if($(this).hasClass("blink")){
+        $(".card .card-title h3").removeClass("blink");
+
+       }
+       else{
+           $("#apacHousing h3").addClass("blink");
+      
+
+       }
+    });
+    });
+</script>
 </body>
      
 </html>

@@ -8,7 +8,7 @@
 }
 body{
     padding: 0px;
-    background-image: url(img/background.jpg);    
+    background-image: url(../img/background.jpg);    
     font-family: monospace;
     overflow-x: hidden;
 
@@ -44,7 +44,7 @@ li{
 }
 
 .bgimg{
-    background-image: url(img/bg.jpeg);
+    background-image: url(../img/bg.jpeg);
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
@@ -313,8 +313,6 @@ label{
         width:100px;
     }
     .bgimg{
-        margin-top: 20px;
-        background-image: url(img/bg.jpeg);
         height: 300px;
         background-repeat: no-repeat;
         background-size:cover;

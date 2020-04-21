@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "\"internship work of apac financial pvt. ltd\"",
+  "description": "internship files",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0"
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1"
   }
 }

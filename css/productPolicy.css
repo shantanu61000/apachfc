@@ -6,7 +6,7 @@
     overflow-x: hidden;
 }
 body{
-    background-image: url(img/background.jpg);
+    background-image: url(../img/background.jpg);
 }
 .container-fluid{
     padding: 0px;
@@ -22,12 +22,19 @@ body{
 }
 .bgimg{
     margin-top: 20px;
-    background-image: url(img/bg.jpeg);
+    background-image: url(../img/bg.jpeg);
     height: 300px;
     background-repeat: no-repeat;
     background-size:cover;
 }
-
+#toc a{
+    font-weight: bolder;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
 .navbar-light .navbar-nav .nav-link{
     font-size: 16px;
     font-weight: bolder;
@@ -48,7 +55,7 @@ body{
 
 
 .bgimg{
-    background-image: url(img/bg.jpeg);
+    background-image: url(../img/bg.jpeg);
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
@@ -60,13 +67,24 @@ body{
 }
 
 .container-fluid h3{
-    margin-top:10px ;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left: 20px;
     font-size:18px;
     font-weight: bolder;
     text-align: center;
     background-color: #3f6594;
     color: white;
     padding: 10px;
+}
+
+.container-fluid p{
+  
+   text-align: center;
+    padding: 10px;
+}
+.jumbotron{
+    margin-bottom: 0px;
 }
 
 .ourcustomers h5{
@@ -123,7 +141,7 @@ footer{
     }
     .bgimg{
         margin-top: 20px;
-        background-image: url(img/bg.jpeg);
+        background-image: url(../img/bg.jpeg);
         height: 300px;
         background-repeat: no-repeat;
         background-size:cover;

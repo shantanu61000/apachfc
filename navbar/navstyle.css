@@ -1,7 +1,6 @@
 body{
     padding: 0px;
-    margin: 15px;
-    background-image: url(img/background.jpg);    
+    background-image: url(../img/background.jpg);    
     
 }
 .container-fluid{
@@ -16,11 +15,19 @@ body{
     width:203px;
 }
 li{		
-    font-family: 'Lato', sans-serif;
     padding-right:20px;
     font-weight:bold;
     font-size: 20px;
 }
+#toc a{
+    font-weight: bolder;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
 
 .navbar-light .navbar-nav .nav-link{
     color: #153e6f;
@@ -35,7 +42,7 @@ li{
 }
 
 .bgimg{
-    background-image: url(img/bg.jpeg);
+    background-image: url(../img/bg.jpeg);
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
@@ -56,12 +63,12 @@ li{
 
  
     .img-logo{
-        height:40px;
-        width:100px;
+        height:35px;
+        width:90px;
     }
     .bgimg{
         margin-top: 20px;
-        background-image: url(img/bg.jpeg);
+        background-image: url(../img/bg.jpeg);
         height: 300px;
         background-repeat: no-repeat;
         background-size:cover;

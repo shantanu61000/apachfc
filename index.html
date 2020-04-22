@@ -27,7 +27,11 @@
                             <div class="collapse navbar-collapse" style="transition: 1s;" id="navbarResponse" >
                                 <ul class="navbar-nav m-auto ">
                                     <li class="nav-item"><a class="nav-link" href="#home" style="color: orange; text-shadow: 2px 3px 5p white;" >HOME</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="modules/tableOfContents.html">AAPKA-TRAINING</a></li>
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">AAPKA-TRAINING</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown-item"> <a href="modules/tableOfContents.html" style="color: #153e6f; font-size: 15px; font-weight: bold; text-align: center; display: block;">Table of Contents</a></li>
+                                        </ul>
+                                    </li>
                                     <li class="nav-item"><a class="nav-link" href="#product">OUR-SERVICES</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#contactus">CONTACT-US</a></li>
                                     <li class="nav-item"><a class="nav-link" href="aapkaTraining.html">BRANCH</a></li>
@@ -40,7 +44,7 @@
   <!----------------------navbar ends ----------------------------------------------->
        
   <div class="container">
-    <nav class="breadcrumb">
+    <nav class="breadcrumb mt-2">
         <a href="../index.html" class="breadcrumb-item">Home</a>
        <a href="#" class="breadcrumb-item active">..</a>
    </nav>
@@ -278,26 +282,28 @@
 
 <footer>
 <div class="row">
-    <div class="col-sm-3"></div>
-    <div class="col-sm-3">
+    <div class="col-1 col-sm-3"></div>
+    <div class="col-5 col-sm-3">
         <h2 id="companyname">APAC Housing Finance Pvt. Ltd.</h2>        
         <label for="learning">About us</label>
         <label for="learning">Vision</label>    
         <label for="learning">Founder</label>
         <label for="learning">Branches</label>
         <label for="learning">Know More</label>
-    </div>
-    <div class="col-sm-3">
-        <h2>Learning </h2>
         <label for="learning">Aapka Training</label>
-        <label for="learning">Brief intro</label>    
-        <label for="learning">topic 1</label>
-        <label for="learning">topic 1</label>
-        <label for="learning">topic 1</label>
-    
-        <h3>Call: 5555555555 </h3>
     </div>
-    <div class="col-sm-3"></div>
+    <div class="col-5 col-sm-3 align-self-center">    
+        <strong>Follow:</strong>
+        <ul class="list-unstyled">
+            <li style="font-size: 14px;">Facebook</li>
+            <li  style="font-size: 14px;">Linkedin</li>
+            <li style="font-size: 14px;">Twitter</li>
+            <li style="font-size: 14px;">Instagram</li>
+        </ul>
+    
+        
+    </div>
+    <div class="col-1 col-sm-3"></div>
 
 </div>
 
@@ -322,6 +328,7 @@
     });
     });
 </script>
+</div>
 </body>
      
 </html>

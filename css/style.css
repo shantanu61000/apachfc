@@ -240,12 +240,16 @@ footer{
     margin-top: 20px;
     background-color:#153e6f;
     color: whitesmoke;
+    font-size: 70%;
 
 }
 #companyname{
     color: orange;
     font-weight: bold;
-    font-size:30px ;
+    font-size: 14px;
+}
+#footer li{
+   
 }
 label{
     display: block;

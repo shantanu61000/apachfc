@@ -90,11 +90,22 @@
 .green:hover{
     background-color: rgba(123, 255, 123,1);
 }
-footer{
-    min-height: 100px;
-    background-color: #153e6f;
+label{
+    display: block;
 }
+footer{
+    margin-top: 20px;
+    background-color:#153e6f;
+    color: whitesmoke;
+    font-size: 70%;
+    padding: 20px;
 
+}
+#companyname{
+    color: orange;
+    font-weight: bold;
+    font-size: 14px;
+}
 @media(min-width:600px){
     .col-5{
         min-height: 300px;        

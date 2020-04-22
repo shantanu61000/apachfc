@@ -9,9 +9,11 @@
 body{
     padding: 0px;
     background-image: url(../img/background.jpg);    
-    font-family: monospace;
     overflow-x: hidden;
 
+}
+.breadcrumb a{
+    font-size: 12px;
 }
 .container-fluid{
     padding: 0px;
@@ -257,6 +259,10 @@ label{
         padding-top: 10px;
     }
 
+    .breadcrumb a{
+        font-size: 16px;
+    }
+
     #intro h1, #vision h1,#apacHousing h1{
         font-size: 30px;
     }
@@ -320,6 +326,9 @@ label{
     .navbar ul li{
         padding-right: 0px;
         font-size: 17px;
+    }
+    .breadcrumb a{
+        font-size: 12px;
     }
     #arrow{
         padding-top: 40px;

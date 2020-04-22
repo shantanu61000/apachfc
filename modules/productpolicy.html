@@ -2,15 +2,15 @@
 <html>
     <head>
        <title>APAC Housing+ME Product Policy</title>
-       <link rel="icon" href="../img/titielogo.png" type="image/icon type">
+       <link rel="icon" href="../img/titielogo.png" type="image/icon">
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
        <link rel="stylesheet" href="../css/productPolicy.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <script>
             $(document).ready(function(){
@@ -20,15 +20,18 @@
                 else{
                     $('.ourcustomers ul').addClass('collapse');
                 }
+
+              
             });
         </script>
     </head>
 
     <body>
-        
+    <!--------------------------------navbar sarts ------------------------------------->
+    
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="#"> <img src="../img/APAClogo2.png" class="img-logo"> </a>
+                <a class="navbar-brand" href="#"> <img src="../img/APAClogo2.png" alt="apac logo" class="img-logo"> </a>
                 <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarResponse">
                     <span class="navbar-toggler-icon"></span>
                 </button>  
@@ -55,17 +58,23 @@
                     
             </div>
         </nav>
+ <!----------------------navbar ends ----------------------------------------------->
+       
+     <div class="container">
+        <nav class="breadcrumb">
+            <a href="../index.html" class="breadcrumb-item">Home</a>
+            <a href="tableOfContents.html" class="breadcrumb-item">Aapka Training (Contents)</a>
+           <a href="#" class="breadcrumb-item active">Product policy</a>
+       </nav>
+<!----------------------who are our customers starts----------------------------------------------->
 
-        <div class="container-fluid jumbotron">
-            <p><strong>Topic:</strong> APAC Housing + ME Product Policy </p>
-        </div>
         <div class="container-fluid">
             <h3 >Who are our Customers ..?</h3>
 
             <div class="row col-sm-8 m-auto">
                 <div class="col-sm-12 col-md-6 col-lg-6  ourcustomers">
                     <h5 data-toggle="collapse" data-target="#kirana" >Kirana Shop</h5>
-                            <ul class="collapse" id="kirana" style="background-image: url('img/kiranashop.jpeg'); background-size: cover;">
+                            <ul class="collapse" id="kirana" style="background-image: url('../img/kiranashop.jpeg'); background-size: cover;">
                                 <li>Kirana Shop selling groceries and vegetables</li>
                                 <li>70% on credit and rest in cash</li> 
                                 <li>Over 5 years in the market</li>
@@ -76,7 +85,7 @@
     
                 <div class="col-sm-12 col-md-6 col-lg-6 ourcustomers">
                     <h5 data-toggle="collapse" data-target="#dairy">Dairy</h5>
-                    <ul class="collapse" id="dairy" style="background-image: url('img/dairy.jpg'); background-size: cover;">
+                    <ul class="collapse" id="dairy" style="background-image: url('../img/dairy.jpg'); background-size: cover;">
                         <li>Own 5 animals</li>
                         <li>Supply milk to local dairy</li>
                         <li>Family of 5 members</li>
@@ -86,7 +95,7 @@
     
                 <div class="col-sm-12 col-md-6 col-lg-6  ourcustomers">
                     <h5 data-toggle="collapse" data-target="#hotel">Small Hotel</h5>
-                    <ul class="collapse" id="hotel" style="background-image: url('img/hotel.jpg'); background-size: cover;">
+                    <ul class="collapse" id="hotel" style="background-image: url('../img/hotel.jpg'); background-size: cover;">
                         <li>Small hotel selling breakfast and evening stock</li>
                         <li>100% of Sale in cash to farm labour and travellers</li>
                         <li>Over 5 years in market</li>
@@ -97,7 +106,7 @@
                 
                 <div class="col-sm-12 col-md-6 col-lg-6  ourcustomers">
                     <h5 data-toggle="collapse" data-target="#supervisor">Supervisor in Factory</h5>
-                        <ul class="collapse" id="supervisor" style="background-image: url('img/super.jpg'); background-size: cover;">
+                        <ul class="collapse" id="supervisor" style="background-image: url('../img/super.jpg'); background-size: cover;">
                             <li>About 5 years of experience</li>
                             <li>Additional family income to support</li>
                             <li>Monthly salary of 15k</li>
@@ -109,14 +118,15 @@
                 
          </div>
             
-        </div> 
-
+<!-------------------------who are our customer starts-------------------------------------------->
+ 
+<!------------------------customer segment starts--------------------------------------------->
         <div class="container-fluid">
             <h3> Customer Segment</h3>
 
             <div class="customerSegment col-sm-8 m-auto">
                
-                <table class="table table-striped">
+                <table class="table table-striped ">
                     <thead class="thead-dark">
                         <tr>
                             <th>Example</th>
@@ -125,41 +135,260 @@
                     </thead >
                     <tbody>
                         <tr>
-                            <th>Salaried</th>
-                            <td>Receiving regular salary payments through banking channels, Government employees, LTD company employees</td>
+                            <th>Formal Salaried</th>
+                            <td>
+                                <ul>
+                                    <li>Employees who are on rolls, with credits in bank account have a PF / ESIC / Deductions, etc</li>
+                                    <li>Government departments including Schools</li>
+                                    <li>PSU’s / Private Sector undertakings</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
+                            <th>Informal / Cash Salary</th>
+                            <td>
+                                <ul>
+                                    <li>Employees who work in an unorganised fashion employed with small businesses or with individuals. </li>
+                                    <li>Salaries are either given in the form of cash / bank credit</li>
+                                    <li>Mill workers, Drivers, Nurses, etc.</li>
+                                </ul> 
+                            </td>
+                        </tr>    
+                     
+                        <tr>
                             <th>Self Employed Professional</th>
-                            <td>Well qualified professional running own business, Doctors, Engineers, CA, Chemist, Architect, Teachers </td>
+                            <td>
+                                <ul>
+                                    <li>Doctors, Architects, Engineers, CA’s, etc</li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <th>Self Employed Non-Professional</th>
-                            <td>Self-employed individuals like Carpenters, Kiran Stores, Small contractors, Auto and Cab drivers, fruit & vegetable vendors</td>
+                            <td>
+                                <ul>
+                                    <li>Small Business across Trading, Services and Manufacturing</li>
+                                    <li>Proprietorship or Partnership firms</li>
+                                    <li>Trading – Groceries, Medical, Textile, Hardware, Stationery, Plastics, etc</li>
+                                    <li>Services – Eateries, Tailoring, Electricals, Carpentry, Workshop, etc</li>
+                                    <li>Manufacturing -   Artisans, Food processing, Metal works, Engineering works, </li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
-                            <th>Cash Salary</th>
-                            <td>Receiving salary in cash, contractual employees, factory & MIDC workers, </td>
+                            <th>Dairy and Applied Agriculture</th>
+                            <td>
+                                <ul>
+                                    <li>Individuals running dairy farms with 3 or more animals </li>
+                                    <li>Individuals running other allied business like sheep rearing, etc.</li>
+                                </ul>
+                            </td>
                         </tr>
-                        <tr>
+                        <tr>                       
                             <th>NRI</th>
-                            <td>Individuals working abroad could be combination of all 4</td>
+                            <td>Individuals working abroad could be combination of all 5</td>
                         </tr>
                     </tbody>
                     
                 </table>
             </div>
         </div>
+<!-----------------------customer segment ends---------------------------------------------->
 
+            <!---------------product in details start----------------->
+            <div class="container-fluid">
+                <h3>Products in Detail</h3>
+            <div class="row">
+                <div class="col-sm-7  m-auto">
+                    <table class="table table-responsive table-bordered">
+                        <caption>Product in detail table</caption>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Prameter</th>
+                                <th>Home Loans</th>
+                                <th>Enterprise Loans (LAP)</th>
+                                <th>Micro Enterprise loans</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Min Loan Amount</td>
+                                <td>3 Lakhs</td>
+                                <td>3 Lakhs</td>
+                                <td>2 Lakhs</td>
+                            </tr>
+                            <tr>
+                                <td>Max Loan Amount</td>
+                                <td>35 Lakhs</td>
+                                <td>35 Lakhs</td>
+                                <td>6 Lakhs</td>
+                            </tr>
+
+                            <tr>
+                                <td>Max Tenure</td>
+                                <td>20 Years</td>
+                                <td>7 Years </td>
+                                <td>& Years </td>
+                            </tr>
+                            <tr>
+                                <td>Min ROI</td>
+                                <td>14%</td>
+                                <td>16%</td>
+                                <td>20%</td>
+                            </tr>
+
+                            <tr>
+                                <td>FOIR</td>
+                                <td>45-60%</td>
+                                <td>45-60%</td>
+                                <td>45-60%</td>
+                            </tr>
+
+                            <tr>
+                                <td>LTV</td>
+                                <td>85%</td>
+                                <td>65%</td>
+                                <td>50%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+<!---------------product in details ends--------------------------->
+
+<!---------------------------Applicant and Income Aggregation starts-->
+            <div class="container-fluid">
+                <h3>Applicant and Income Aggregation</h3>
+                <div class="container">
+                    <div class="row" style="padding-bottom: 0px;" >
+                    <div class="col-12 col-sm-6">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Max of 5 applicants</li>
+                                    <li>Individuals or entities</li>
+                                    <li>All property owners must be applicants</li>
+                                    <li>If only 1 applicant then a quatantor is required</li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col"></div>                        
+                    </div>
+                    <div class="row" style="padding-top: 0px;">
+                        <div class="col-12 col-sm-6 col-md-6 ">
+                            <img src="../img/people.png" class="img-fluid" alt="Applicant and co-applicant image">
+                        </div>   
+                        <div class="col-12 col-sm">
+                            <div class="card mt-3">
+                                <strong class="card-header bg-dark text-white">Gross Family Income</strong>
+                                <ul class="card-body">
+                                    <li>Sum of assessed income for all applicants (Main and Co) </li>
+                                    <li>Will include individuals as well as entities</li>
+                                    <li>Expenses and obliations will also be taken into account</li>
+                                    <li>Incomes will be assessed using defined assesment porgrams(details will follow...)</li>
+                                </ul>
+                            </div>
+                        </div>                     
+                    </div>
+                    
+                </div>
+            </div>
+<!---------------------------Applicant and Income Aggregation ends-->
+
+<!------------------------------customer selection critera starts-->
+            <div class="container-fluid">
+                <h3>Customer Selection Criteria</h3>
+
+                <div class="criteria col-sm-8 m-auto">
+                    <table class="table table-striped ">
+                        <caption>Customer Selection Criteria</caption>
+                        <tr>
+                            <th>1</th>
+                            <th>Target Customer</th>
+                            <td>First Home Buyer for AHL/ Self Employed looking for Business Expansion for MEL</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Minimum age at the time of loan application</th>
+                            <td>If Income is Considered:
+                                <ul>
+                                    <li>For  SENP: 21 Years. Co-Applicant – 21 years.</li>
+                                    <li>For SEP 24 Years. Co-Applicant – 21 years</li>
+                                    <li>For Formal Salaried applicants: 21 Years.  Co-Applicant -21 years</li>
+                                    <li>For Cash Salaried applicants: 21 Years. Co-Applicant 21 years </li>
+                                    <li>If Income is Not Considered: 18 Years.</li>
+                                </ul>
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Max Age at the time of Maturity of Loan</th>
+                            <td>
+                                If Income is Considered:
+                                <ul>
+                                    <li>For Formal Salaried and Cash Salaried: Retirement age or 65 years, whichever is lesser. </li> 
+                                    <li> For SEP or SENP: 70 Years.</li>  
+                                    <li>If Income Not Considered:  80 Years.</li>  
+                                </ul>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Geo Limit</th>
+                            <td>50 KM from branch office</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+<!------------------------------customer selection critera starts-->
+
+<!-------------------Relationship matrix starts---------->
+
+            <div class="container-fluid matrix">
+                <h3>Relationship Matrix</h3>
+
+                <h5 class="col-sm-12 m-auto">The matrix explains the different relationships and combinations allowed while sourcing the home loan applications</h5>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-6">
+                        <table class="table table-bordered table-striped">
+                            <caption>Relationship Matrix</caption>
+                            <tr>
+                                <td>Husband + Wife</td>
+                                <td>Mother + Son</td>
+                            </tr>
+                            <tr>
+                                <td>Husband + Wife + Son</td>
+                                <td>fater + Daughter (if daughter sole child)</td>
+                            </tr>
+                            <tr>
+                                <td>Father + Son + Daughter in Law</td>
+                                <td>Brother + Brother (only if unit can be separated)</td>
+                            </tr>
+                            <tr>
+                                <td>Mother + Son + Daughter in Law</td>
+                                <td>Mother + Daughter (if daughter sole child)</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+<!--------------------------Relationship Matrix  ends-->
+
+
+<!----------------------------cution and restriction starts-->
             <div class="container-fluid caution">
                 <h3>Caution & Restricted profiles</h3>
                 <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4 ml-auto">
-                        <div class="card">
+                    <div class="col-sm-12 col-md-6 col-lg-6 ml-auto">
+                        <div class="card" style="height: 100%;">
                             <div class="card-header"><h3>Caution Profiles</h3></div>
                             <div class="card-body">
                               <h5>Can only be done with approval as per deviation matrix (refer to Product & Credit Policy for more details) </h5>
                                 <ul>
-                                    <li>Vendors of the builders like Tile Manufacturing, cement supplier , labour contractor/li>
+                                    <li>Vendors of the builders like Tile Manufacturing, cement supplier , labour contractor</li>
                                     <li>Vendors of the builders like Tile Manufacturing, cement supplier , labour contractor</li>
                                     <li>Film producers, film financiers.</li>
                                     <li>Money lenders / Financers</li>
@@ -194,7 +423,7 @@
                             </div>
                         </div>
                         
-                        <div class="row">
+                        <div class="row pb-0" >
                             <div class="card">
                                 <div class="card-header"><h3>Negative Areas</h3></div>
                                 <div class="card-body">
@@ -207,51 +436,39 @@
                     </div>                            
                 </div>
             </div>
-            
-            <div class="container-fluid">
-                <h3>Customer Selection Criteria</h3>
+    <!----------------------------cution and restriction starts-->
 
-                <div class="criteria col-sm-8 m-auto">
-                    <table class="table table-striped">
-                        <caption>Customer Selection Criteria</caption>
-                        <tr>
-                            <th>1</th>
-                            <th>Target Customer</td>
-                            <td>First Home Buyer for AHL/ Self Employed looking for Business Expansion for MEL</td>
-                        </tr>
-                        <tr>
-                            <th>2</th>
-                            <th>Minimum age at the time of loan application</td>
-                            <td>If Income is Considered:
-                                <li>For  SENP: 21 Years. Co-Applicant – 21 years.</li>
-                                <li>For SEP 24 Years. Co-Applicant – 21 years</li>
-                                <li>For Formal Salaried applicants: 21 Years.  Co-Applicant -21 years</li>
-                                <li>For Cash Salaried applicants: 21 Years. Co-Applicant 21 years </li>
-                                <li>If Income is Not Considered: 18 Years.</li>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <th>Max Age at the time of Maturity of Loan</td>
-                            <td>
-                                If Income is Considered:
-                                <li>For Formal Salaried and Cash Salaried: Retirement age or 65 years, whichever is lesser. </li> 
-                                <li> For SEP or SENP: 70 Years.</li>  
-                                <li>If Income Not Considered:  80 Years.</li>  
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>4</th>
-                            <th>Geo Limit</td>
-                            <td>50 KM from branch office</td>
-                        </tr>
-                    </table>
+
+
+
+ <!---------------------------Underwriting Programs-->
+            <div class="container-fluid underwriting">
+                <h3>Underwriting Programs</h3>
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <h5>Formal Salaried</h5>
+                    </div>
                 </div>
-
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <h5>General Income Assesment</h5>
+                    </div>
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <h5>Cash Salaried</h5>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6 col-sm-3 col-lg-2">
+                        <h5>Accessed Income</h5>
+                    </div>
+                </div>
+                
             </div>
-
+ 
             <footer>
 
             </footer>
+     </div>
     </body>
 </html>

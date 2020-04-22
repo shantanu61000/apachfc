@@ -1,12 +1,24 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    font-family: monospace;
     overflow-x: hidden;
+
+}
+td{
+    overflow-x: visible;
+}
+ul{
+    overflow-x: unset;
+}
+li{
+    overflow-x: unset;
+}
+table{
+    background-color: white;
 }
 body{
     background-image: url(../img/background.jpg);
+    font-size: 90%;
 }
 .container-fluid{
     padding: 0px;
@@ -27,14 +39,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
-#toc a{
-    font-weight: bolder;
-    font-size: 14px;
-    display: block;
-    margin: 0px;
-    padding: 10px;
-    text-align: center;
-}
+
 .navbar-light .navbar-nav .nav-link{
     font-size: 16px;
     font-weight: bolder;
@@ -62,14 +67,17 @@ body{
     background-size:cover;
     
 }
+
+.breadcrumb a{
+    font-size: 12px;
+}
 .row{
-    padding: 30px;
+    padding: 20px;
 }
 
 .container-fluid h3{
     margin-top:10px;
-    margin-right: 20px;
-    margin-left: 20px;
+
     font-size:18px;
     font-weight: bolder;
     text-align: center;
@@ -83,9 +91,6 @@ body{
    text-align: center;
     padding: 10px;
 }
-.jumbotron{
-    margin-bottom: 0px;
-}
 
 .ourcustomers h5{
     font-size: 16px;
@@ -96,7 +101,9 @@ body{
     padding: 10px;    
     cursor: pointer;
     text-align: center;
-    background-color:#aaa;
+    background-color:#b0b0b0;
+    border: 1px solid black;
+    box-shadow: 1px 1px 30px white;
     border-radius: 5px;
 }
 .ourcustomers ul{
@@ -105,7 +112,7 @@ body{
 }
 .ourcustomers ul li{
     font-weight: lighter;
-    list-style: disc;
+    list-style-type: disc;
     margin-left: 20px;
     font-size: 14px;
     color: black;
@@ -115,9 +122,18 @@ body{
 .customerSegment h3 {
     margin-top: 30px;
 }
+#toc a{
+    font-weight: bolder;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
 .table{
     margin-top: 20px;
 }
+
 .caution .card .card-header h3{
     font-weight:bolder;
     font-size:16px
@@ -126,8 +142,28 @@ body{
     font-weight:400;
     font-size: 16px;
 }
+.caution .card .card-body li{
+    list-style-type: square;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 tr{
     border-bottom: black solid 1px ;
+}
+.matrix h5{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #c0dcff;
+}
+.underwriting h5{
+    background-color: orange;
+    min-height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 footer{
     height: 100px;
@@ -150,6 +186,13 @@ footer{
     .navbar ul li{
         font-size: 15px;
     }
+    .breadcrumb a{
+        font-size: 16px;
+    }
+    .row{
+        padding: 20px;
+    }
+    
     li{
         font-size: 15px;
     }
@@ -169,6 +212,10 @@ footer{
     th{
         font-size: 16px;
     }
+    .underwriting h5{
+        padding: 20px;
+        max-width: 160px;
+      }
 }
 @media screen and (min-width : 1000px){
     
@@ -202,4 +249,9 @@ footer{
     th{
         font-size: 18px;
     }
+    .underwriting h5{
+        padding: 30px;
+      max-width: 160px;
+    }
+    
 }

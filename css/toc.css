@@ -4,8 +4,9 @@
     box-sizing: border-box;
     overflow-x: auto;
 }
-body{
-    font-family: monospace;
+
+.breadcrumb a{
+    font-size: 12px;
 }
 .container-fluid{
     padding: 0px;
@@ -106,7 +107,9 @@ footer{
         font-size: 20px;
         text-align: center;     
     }
-   
+    .breadcrumb a{
+        font-size: 16px;
+    }
 }
 
 @media(min-width:1200px){

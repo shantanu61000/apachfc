@@ -4,6 +4,9 @@
     overflow-x: hidden;
 
 }
+.container{
+    padding: 0px 5px;
+}
 td{
     overflow-x: visible;
 }
@@ -72,7 +75,7 @@ body{
     font-size: 12px;
 }
 .row{
-    padding: 20px;
+  padding: 0px;
 }
 
 .container-fluid h3{
@@ -118,6 +121,10 @@ body{
     color: black;
     text-shadow: 2px 3px 5px white;
     font-weight: bold;
+}
+.col-sm-8{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .customerSegment h3 {
     margin-top: 30px;
@@ -171,7 +178,7 @@ footer{
 }
 
 @media screen and (min-width:450px){
- 
+   
     .img-logo{
         height:40px;
         width:100px;
@@ -192,7 +199,13 @@ footer{
     .row{
         padding: 20px;
     }
-    
+    .container{
+        padding: 0px 15px;
+    }
+    .col-sm-8{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     li{
         font-size: 15px;
     }
@@ -251,7 +264,12 @@ footer{
     }
     .underwriting h5{
         padding: 30px;
-      max-width: 160px;
+        max-width: 160px;
+    }
+    .matrix h5{
+        font-size: 17px;
+        padding-right: 200px;
+        padding-left:200px ;
     }
     
 }

@@ -1,3 +1,7 @@
+*{
+ 
+    box-sizing: border-box;
+}
 .breadcrumb a{
     font-size: 12px;
 }

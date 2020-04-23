@@ -1,8 +1,4 @@
-body{
-    padding: 0px;
-    background-image: url(../img/background.jpg);    
-    
-}
+
 .container-fluid{
     padding: 0px;
 }
@@ -14,11 +10,12 @@ body{
     height:81px;
     width:203px;
 }
-li{		
+nav li{		
     padding-right:20px;
     font-weight:bold;
     font-size: 20px;
 }
+
 #toc a{
     font-weight: bolder;
     font-size: 14px;
@@ -67,8 +64,8 @@ li{
 
  
     .img-logo{
-        height:35px;
-        width:90px;
+        height:40px;
+        width:100px;
     }
     .bgimg{
         margin-top: 20px;

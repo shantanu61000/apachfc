@@ -288,5 +288,19 @@ footer{
         padding-right: 200px;
         padding-left:200px ;
     }
+
+    footer{
+        margin-top: 20px;
+        background-color:#153e6f;
+        color: whitesmoke;
+        font-size: 100%;
+        padding: 20px;
+    
+    }
+    #companyname{
+        color: orange;
+        font-weight: bold;
+        font-size: 25px;
+    }
     
 }

@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    overflow-x: auto;
 }
 
 .breadcrumb a{
@@ -108,7 +107,7 @@ footer{
 }
 @media(min-width:600px){
     .col-5{
-        min-height: 300px;        
+        min-height: 200px;        
     }
     .col-5 a h5:hover{        
         font-size: 25px;
@@ -125,8 +124,9 @@ footer{
 
 @media(min-width:1200px){
     .col-5{
-        margin: 40px;
-        box-shadow: 2px 5px 35px black;
+        overflow: visible;
+        margin: 20px;
+        box-shadow: 2px 5px 10px black;
     }
     .col-5:hover{
        font-size: 35px;
@@ -137,6 +137,20 @@ footer{
         font-size: 30px;
         text-align: center;
      
+    }
+
+    footer{
+        margin-top: 20px;
+        background-color:#153e6f;
+        color: whitesmoke;
+        font-size: 100%;
+        padding: 20px;
+    
+    }
+    #companyname{
+        color: orange;
+        font-weight: bold;
+        font-size: 25px;
     }
     
 }

@@ -4,7 +4,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    overflow-x: auto;
 }
 body{
     padding: 0px;
@@ -129,6 +128,7 @@ li{
     background-color: #153e6f;
     color: aliceblue;
     font-weight: bolder;
+    font-size: 22px;
 }
 
 .card{
@@ -241,12 +241,13 @@ footer{
     background-color:#153e6f;
     color: whitesmoke;
     font-size: 70%;
+    padding: 10px;
 
 }
 #companyname{
     color: orange;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 #footer li{
    
@@ -399,10 +400,20 @@ label{
     #statsinfo{
         opacity: 1;
     }
-
-
     footer{
+     
         padding: 15px;
+    
     }
+    #companyname{
+  ;
+        font-size: 14px;
+    }
+    #footer li{
+       
+    }
+  
+
+ 
 
 }

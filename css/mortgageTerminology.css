@@ -1,0 +1,46 @@
+.breadcrumb a{
+    font-size: 12px;
+}
+.sectionTitle{
+    background-color: #3f6594;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+body{
+    font-size: 80%;
+}
+
+.sectionBody li{
+    list-style: square;
+    font-weight: bold;
+    padding: 3px;
+}
+.sectionBody{
+    padding:0px 10px;
+}
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.aggBtn{
+    padding: 10px;
+}
+@media (min-width:500px){
+    body{
+        font-size: 100%;
+    }
+    .sectionTitle{
+        text-align: center;
+    }
+}
+
+@media (min-width:1000px){
+    .aggBtn{
+        min-height: 100px;
+        padding: 25px;
+    }
+}

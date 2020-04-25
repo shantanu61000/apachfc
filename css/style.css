@@ -8,6 +8,7 @@
 body{
     padding: 0px;
     overflow-x: hidden;
+    background-color: #ffccbc1f;
 
 }
 .breadcrumb a{
@@ -15,41 +16,6 @@ body{
 }
 .container-fluid{
     padding: 0px;
-}
-
-.navbar{
-    background-color: rgba(74,197,238, 0.5);
-} 
-.img-logo{
-    height:81px;
-    width:203px;
-}
-li{		
-    padding-right:10px;
-    padding-right:20px;
-    font-weight:bold;
-    font-size: 20px;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    color: #153e6f;
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link:hover{
-	color: orange;
-}
-#nav-bar{
-    display: block;
-}
-
-.bgimg{
-    background-image: url(../img/bg.jpeg);
-    height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    
 }
 
 #arrow{
@@ -124,7 +90,7 @@ li{
 }
 #intro #intro-heading , #vision h1, #apacHousing h1 ,#societalimpact h3 {
     padding: 10px;
-    background-color: #153e6f;
+    background-color: #006b60;
     color: aliceblue;
     font-weight: bolder;
     font-size: 22px;
@@ -256,12 +222,7 @@ label{
 }
 @media screen and (max-width : 991px){
 
-    nav ul li a {
-        text-align: center;
-    }
-    nav ul li{
-        padding-top: 10px;
-    }
+ 
 
     .breadcrumb a{
         font-size: 16px;
@@ -317,20 +278,7 @@ label{
 
 @media screen and (max-width:450px){
 
- 
-    .img-logo{
-        height:40px;
-        width:100px;
-    }
-    .bgimg{
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size:cover;
-    }
-    .navbar ul li{
-        padding-right: 0px;
-        font-size: 17px;
-    }
+
     .breadcrumb a{
         font-size: 12px;
     }
@@ -405,7 +353,7 @@ label{
     
     }
     #companyname{
-  ;
+ 
         font-size: 14px;
     }
     #footer li{

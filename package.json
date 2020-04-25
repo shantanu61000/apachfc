@@ -22,8 +22,11 @@
     "lite-server": "^2.5.4"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.5.0",
-    "popper.js": "^1.16.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "wow.js": "^1.2.2"
   }
 }

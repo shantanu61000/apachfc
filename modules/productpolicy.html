@@ -5,15 +5,14 @@
        <link rel="icon" href="../img/titielogo.png" type="image/icon">
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+       <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>      
+       <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
        <link rel="stylesheet" href="../css/productPolicy.css">
+       <link rel="stylesheet" href="../navbar/navstyle.css">
 
         <script>
-            $(document).ready(function(){
+            $('document').ready(function(){
                 if(document.body.clientWidth>800){
                     $('.ourcustomers ul').removeClass('collapse');
                 }
@@ -31,9 +30,9 @@
     
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-                <a class="navbar-brand" href="#"> <img src="../img/APAClogo2.png" alt="apac logo" class="img-logo"> </a>
+                <a class="navbar-brand" href="#"> <img src="../img/APAClogo.png" alt="apac logo" class="img-logo"> </a>
                 <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarResponse">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-ellipsis-v text-white"></i>
                 </button>  
                                              
                     <div class="collapse navbar-collapse" style="transition: 1s;" id="navbarResponse" >
@@ -497,6 +496,9 @@
        
     </footer>
     
-    
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   
     </body>
 </html>

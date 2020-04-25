@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>       
+    <head>   
+        <title>Table of Content</title>
+        <link rel="icon" href="../img/titielogo.png" type="image/icon">    
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>      
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">      
         <link rel="stylesheet" href="../navbar/navstyle.css">
         <link rel="stylesheet" href="../css/toc.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+       
 </head>
     <body>
 
@@ -18,14 +19,14 @@
 <!-------------navbar starts------------>
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container">
-                        <a class="navbar-brand" href="#"> <img src="../img/APAClogo2.png" class="img-logo"> </a>
+                        <a class="navbar-brand" href="#"> <img src="../img/APAClogo.png" class="img-logo"> </a>
                         <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarResponse">
-                            <span class="navbar-toggler-icon"></span>
+                            <i class="fas fa-ellipsis-v text-white"></i>
                         </button>                            
                             <div class="collapse navbar-collapse" style="transition: 1s;" id="navbarResponse" >
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item"><a class="nav-link" href="#home">INTRO</a></li>
-                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#loan">AAPKA TRAINING</a>
+                                    <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#loan">AAPKA TRAINING</a>
                                         <div class="dropdown-menu" id="toc">
                                             <a class="dropdown-item" href="">Mortgage Terminology</a> <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="productpolicy.html">Products + credit Policy</a><div class="dropdown-divider"></div>
@@ -61,7 +62,7 @@
                 <div class="container-fluid">
                     <div class="row justify-content-center">
                             <div class="col-sm-10">
-                                <div class="row justify-content-center align-items-center">
+                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s">
                                     <div class="col-5 col-sm-4 col-md-3 orange" style="color:white" >
                                          <a href="../index.html"><h5>Introduction to APAC Group</h5> </a>
                                     </div>
@@ -72,7 +73,7 @@
                                         <a href="mortgageTerminology.html"> <h5>Mortgage Terminology</h5></a>
                                     </div>
                                 </div>
-                                <div class="row justify-content-center align-items-center">
+                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                                     <div class="col-5 col-sm-4 col-md-3 blue" style="color:white" >
                                         <a href="productpolicy.html"> <h5>Products + Credit Policy</h5></a>
                                     </div>
@@ -84,7 +85,7 @@
                                     </div>
                                 </div>
         
-                                <div class="row justify-content-center align-items-center">
+                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                                     <div class="col-5 col-sm-4 col-md-3 grey" style="color:white" >
                                         <a href="#">  <h5>Collateral Guidelines</h5></a>
                                     </div>
@@ -95,7 +96,7 @@
                                         <a href="#"> <h5>Fraud Control</h5></a>
                                     </div>
                                 </div>
-                                <div class="row justify-content-center align-items-center">
+                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
 
                                     <div class="col-5 col-sm-4 col-md-3 green" style="color:white" >
                                         <a href="#">  <h5>Fair Practice Code</h5></a>
@@ -142,6 +143,12 @@
     
        
     </footer>
-    
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/wow.js/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     </body>
 </html>

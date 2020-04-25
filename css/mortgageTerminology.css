@@ -2,21 +2,32 @@
  
     box-sizing: border-box;
 }
+body{
+ background-color: #ffccbc1f;
+}
+a{
+    color: black;
+}
 .breadcrumb a{
     font-size: 12px;
 }
-.sectionTitle{
-    background-color: #3f6594;
-    color: white;
-    font-size: 20px;
+.card-header{
+    color: #ffffff;
+    background-color: #006b60;
     font-weight: bolder;
-    padding: 10px;
-    
+    cursor: pointer;
+}
+.sectionTitle{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
 }
 body{
     font-size: 80%;
 }
-
+.section{
+    background-color: #fff;
+}
 .sectionBody li{
     list-style: square;
     font-weight: bold;
@@ -31,7 +42,18 @@ body{
     border-bottom: 1px solid #eee;
 }
 .aggBtn{
+    background-color: #77a6f7;
+    color: darkblue;
     padding: 10px;
+    font-weight: bolder;
+}
+.aggVal{
+    background-color: #D3E3FC;
+}
+.foir{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
 }
 @media (min-width:500px){
     body{

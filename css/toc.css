@@ -3,7 +3,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #ffccbc1f;
+}
+a{
+    color: black;
+}
 .breadcrumb a{
     font-size: 12px;
 }
@@ -13,9 +18,9 @@
 }
 .container-fluid h3{
     margin-top: 10px;
-    background-color: #153e6f;
+    background-color: #006b60;
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bolder;
     padding: 10px;
     text-align: center;    
@@ -117,9 +122,7 @@ footer{
         font-size: 20px;
         text-align: center;     
     }
-    .breadcrumb a{
-        font-size: 16px;
-    }
+ 
 }
 
 @media(min-width:1200px){

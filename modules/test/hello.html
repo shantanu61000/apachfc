@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="h.css">      
+</head>
+<body>
+    <audio autoplay>
+        <source src="audio/title.wav">
+    </audio>
+    <div class="row mt-5 justify-content-center align-items-center">
+        <div class="col-1"> <span class="fas fa-backward" id="prev" onclick="prevAu();" role="button"></span></div>
+        <div class="col-8">
+            <div>
+                <img src="img/1.png" alt="1" id="content" class="img-fluid slide">
+                <img src="img/play.png" alt="play" id="play" role="button" onclick="playPause();">
+
+            </div>
+        </div>
+        <div class="col-1"> <span class="fas fa-forward" id="next" onclick="nextAu();" role="button"></span></div>
+
+    </div>
+    <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+    <script>
+
+
+        var play= document.getElementById("play");
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
+        var content = document.getElementById("content");
+      
+        var status = 0;
+        var audios = ["audio/1.wav","audio/2.wav","audio/3.wav","audio/4.wav","audio/5.wav"];
+        var slides = ["img/1.png","img/2.png","img/3.png","img/4.png","img/5.png"];
+        var currentAudioIndex = 0;
+        var au = new Audio();
+    
+
+        function playAu(){
+                au.src=audios[currentAudioIndex];
+                content.setAttribute("src",slides[currentAudioIndex]);
+                au.play();
+                play.setAttribute("src","img/pause.png");
+        }
+    
+        function playPause(){
+            if(currentAudioIndex<4){
+                if(status==0){
+                    playAu();
+                    status=1;
+                    play.setAttribute("src","img/pause.png");
+                }
+                else{
+                     au.pause();
+                     play.setAttribute("src","img/play.png");
+                     status=0;
+                    }
+            }
+            else{
+                currentAudioIndex=0;
+                playAu();
+            }
+            
+        }
+
+
+        au.addEventListener("ended",function (){
+         setTimeout(function(){
+            nextAu();
+         },3000);  
+        })
+
+        function nextAu(){
+            if(currentAudioIndex<4){
+                currentAudioIndex++;
+                playAu();      
+            } 
+            else{
+
+              
+                play.setAttribute("src","img/play.png");
+                alert("end");
+            }
+        }
+
+        function prevAu(){
+            if(currentAudioIndex>0){
+                currentAudioIndex--;
+                playAu();
+
+            } 
+         
+         else{
+                alert("end");
+              
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>

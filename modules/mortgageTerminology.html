@@ -52,7 +52,7 @@
                 <a href="tableOfContents.html" class="breadcrumb-item">Aapka Training (TOC)</a>
                 <a href="#" class="breadcrumb-item active">Mortgage Terminology</a>
             </div>
-
+        
             <div class="section">
                 <h3 class="sectionTitle m-auto">Some Common Mortgage Terminology</h3>
                 <div class="sectionBody">
@@ -79,7 +79,7 @@
                         <h3 class="sectionTitle m-auto" data-toggle="collapse" data-target="#storyOne" >LTV Loan to Value</h3>
                     </div>
                    
-                    <div class="card-body collapse show" id="storyOne" data-parent="#storyAccordian">
+                    <div class="card-body collapse" id="storyOne" data-parent="#storyAccordian">
                         <div class="sectionBody">
                             <div class="row mt-2 align-items-center wow fadeInLeft">
                                 <div class="col-4 col-sm-2">
@@ -345,7 +345,19 @@
             <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
             <script src="../node_modules/wow.js/dist/wow.min.js"></script>
             <script>
+                 console.log("inside call");
                 new WOW().init();
+
+                var songs = ["audio/2.mp3"];
+
+                var au = new Audio();
+                
+                window.onLoad = setTimeout(function(){playSong();},2000);
+
+                function playSong(){
+                    au.src="../audio/1.wav";                
+                    au.play();
+                }
             </script>
   
   

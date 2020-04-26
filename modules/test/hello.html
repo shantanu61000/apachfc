@@ -17,8 +17,8 @@
         <div class="col-1"> <span class="fas fa-backward" id="prev" onclick="prevAu();" role="button"></span></div>
         <div class="col-8">
             <div>
-                <img src="img/1.png" alt="1" id="content" class="img-fluid slide">
-                <img src="img/play.png" alt="play" id="play" role="button" onclick="playPause();">
+                <img src="img/1.jpg" alt="1" id="content" class="img-fluid slide">
+                <img src="img/play.jpg" alt="play" id="play" role="button" onclick="playPause();">
 
             </div>
         </div>
@@ -38,7 +38,7 @@
       
         var status = 0;
         var audios = ["audio/1.wav","audio/2.wav","audio/3.wav","audio/4.wav","audio/5.wav"];
-        var slides = ["img/1.png","img/2.png","img/3.png","img/4.png","img/5.png"];
+        var slides = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"];
         var currentAudioIndex = 0;
         var au = new Audio();
     
@@ -47,7 +47,7 @@
                 au.src=audios[currentAudioIndex];
                 content.setAttribute("src",slides[currentAudioIndex]);
                 au.play();
-                play.setAttribute("src","img/pause.png");
+                play.setAttribute("src","img/pause.jpg");
         }
     
         function playPause(){
@@ -55,11 +55,11 @@
                 if(status==0){
                     playAu();
                     status=1;
-                    play.setAttribute("src","img/pause.png");
+                    play.setAttribute("src","img/pause.jpg");
                 }
                 else{
                      au.pause();
-                     play.setAttribute("src","img/play.png");
+                     play.setAttribute("src","img/play.jpg");
                      status=0;
                     }
             }
@@ -85,7 +85,7 @@
             else{
 
               
-                play.setAttribute("src","img/play.png");
+                play.setAttribute("src","img/play.jpg");
                 alert("end");
             }
         }

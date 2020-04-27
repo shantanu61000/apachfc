@@ -336,6 +336,25 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="sectionFour">
+                           <div class="row justify-content-center align-items-center">
+                                <div class="col-1" style="padding: 0px;"> <span class="fas fa-backward" id="prev" onclick="prevAu();" role="button"></span></div>
+                                <div class="col-10 col-sm-10" style="padding: 0px;">
+                                    <div>
+                                        <img src="../img/modules/mortgageTerminology/flatVsReducing/1.png" alt="1" id="content" class="img-fluid">
+                                        <img src="../img/modules/mortgageTerminology/flatVsReducing/play.png" alt="play" id="play" role="button" class="img-fluid" onclick="playPause();">
+                        
+                                    </div>
+                                </div>
+                                <div class="col-1" style="padding: 0px;">
+                                     <span class="fas fa-forward" id="next" onclick="nextAu();" role="button" style="padding-left: 2px;"></span>
+                                </div>
+                           </div>                         
+                    </div>
+
+
                 </div>
             </div>
 
@@ -360,7 +379,84 @@
                 }
             </script>
   
+  <script>
+
+
+    var play= document.getElementById("play");
+    var prev = document.getElementById("prev");
+    var next = document.getElementById("next");
+    var content = document.getElementById("content");
   
+    var status = 0;
+    var audios = ["audio/1.wav","audio/2.wav","audio/3.wav","audio/4.wav","audio/5.wav"];
+    var slides = ["../img/modules/mortgageTerminology/flatVsReducing/1.png","../img/modules/mortgageTerminology/flatVsReducing/2.png","../img/modules/mortgageTerminology/flatVsReducing/3.png","../img/modules/mortgageTerminology/flatVsReducing/4.png","../img/modules/mortgageTerminology/flatVsReducing/5.png"];
+    var currentAudioIndex = 0;
+    var au = new Audio();
+
+
+    function playAu(){
+            au.src=audios[currentAudioIndex];
+            content.setAttribute("src",slides[currentAudioIndex]);
+            au.play();
+            play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/pause.png");
+    }
+
+    function playPause(){
+        if(currentAudioIndex<4){
+            if(status==0){
+                playAu();
+                status=1;
+                play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/pause.png");
+            }
+            else{
+                 au.pause();
+                 play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/play.png");
+                 status=0;
+                }
+        }
+        else{
+            currentAudioIndex=0;
+            playAu();
+        }
+        
+    }
+
+
+    au.addEventListener("ended",function (){
+     setTimeout(function(){
+        nextAu();
+     },3000);  
+    })
+
+    function nextAu(){
+        if(currentAudioIndex<4){
+            currentAudioIndex++;
+            playAu();      
+        } 
+        else{
+
+          
+            play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/play.png");
+            alert("end");
+        }
+    }
+
+    function prevAu(){
+        if(currentAudioIndex>0){
+            currentAudioIndex--;
+            playAu();
+
+        } 
+     
+     else{
+            alert("end");
+          
+        }
+    }
+
+
+
+</script>
   
   
   

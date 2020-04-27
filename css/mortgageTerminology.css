@@ -55,6 +55,25 @@ body{
     display: flex;
     align-items: center;
 }
+#play{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 30px;
+    height: auto;
+}
+
+#playAgain{ 
+    display:block;
+    position: absolute;
+    left: 50%;
+    top:120%;
+}
+.content{
+    transition: 0.2s;
+}
+
+
 @media (min-width:500px){
     body{
         font-size: 100%;

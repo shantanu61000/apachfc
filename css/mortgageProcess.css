@@ -1,0 +1,56 @@
+body{
+    font-size: 80%;
+    overflow-x: auto;
+    background-color: #ffccbc1f;
+
+}
+.breadcrumb a{
+    color: black;
+}
+h5{
+    padding: 0px;
+    margin: 0px;
+}
+th{
+    align-items: center;
+    text-align: center;
+}
+table{
+    background-color: #ffffff;
+}
+section h3{
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.card-body{
+    padding: 10px 0px 0px 0px;
+}
+
+@media (min-width:500px){
+    body{
+        font-size: 95%;
+    }
+    section h3{
+        font-size: 19px;
+    }
+
+    .card-body{
+        padding: 15px;
+    }
+}
+
+@media (min-width:1200px){
+    body{
+        font-size: 100%;
+    }
+    section h3 {
+        font-size: 21px;
+
+    }
+
+
+}

@@ -4,12 +4,19 @@ body{
     background-color: #ffccbc1f;
 
 }
+.breadcrumb{
+    margin-top: 100px;
+}
 .breadcrumb a{
     color: black;
 }
 h5{
     padding: 0px;
     margin: 0px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
 }
 th{
     align-items: center;
@@ -29,7 +36,12 @@ section h3{
 .card-body{
     padding: 10px 0px 0px 0px;
 }
-
+#idproof img{
+    width: 40px;
+    height: auto;
+}
+.card{
+}
 @media (min-width:500px){
     body{
         font-size: 95%;

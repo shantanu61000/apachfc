@@ -1,0 +1,58 @@
+body{
+    font-size: 80%;
+    overflow-x: auto;
+    background-color: #ffccbc1f;
+
+}
+.breadcrumb{
+    margin-top: 100px;
+}
+.breadcrumb a{
+    color: black;
+}
+section{
+    padding: 20px 0px;
+    background-color: #3247681f;
+}
+.card {
+    margin: 10px 0px;
+}
+.card-header{
+    font-size: 15px;
+    
+}
+section h3{
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+}
+h5{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.funded {
+    box-shadow: 1px 1px 10px #00ff009f;
+}
+.notfunded{
+    box-shadow: 1px 1px 10px #ff00005f;
+}
+.square li{
+    list-style: square;
+}
+
+@media (min-wdth:575px){
+    .card {
+        margin-top: 0px;
+    }
+}
+@media(min-width:1024px){
+    body{
+        font-size: 95%;
+    }
+ .card{
+     min-height: 210px;
+ }
+}

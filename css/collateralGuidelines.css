@@ -11,14 +11,14 @@ body{
     color: black;
 }
 section{
+    background-color: rgba(0, 183, 255, 0.07);
     padding: 20px 0px;
-    background-color: #3247681f;
 }
 .card {
     margin: 10px 0px;
 }
 .card-header{
-    font-size: 15px;
+    font-size: 13px;
     
 }
 section h3{
@@ -34,7 +34,7 @@ h5{
     font-size: 16px;
 }
 .funded {
-    box-shadow: 1px 1px 10px #00ff009f;
+    box-shadow: 1px 1px 10px #00ff005f;
 }
 .notfunded{
     box-shadow: 1px 1px 10px #ff00005f;
@@ -44,8 +44,18 @@ h5{
 }
 
 @media (min-wdth:575px){
+    body{
+        font-size: 90%;
+    }
+    section h3{
+        font-size: 20px;
+    }
     .card {
         margin-top: 0px;
+    }
+    .card-header{
+        font-size: 15px;
+        
     }
 }
 @media(min-width:1024px){
@@ -55,4 +65,11 @@ h5{
  .card{
      min-height: 210px;
  }
+ .card-header{
+    font-size: 16px;
+    
+}
+section h3{
+    font-size: 21px;
+}
 }

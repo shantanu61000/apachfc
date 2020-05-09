@@ -9,9 +9,7 @@ body{
     font-size: 90%;
     overflow-x: hidden;
 }
-.container{
-    padding: 0px 7px;
-}
+
 a{
     color: black;
 }
@@ -43,11 +41,10 @@ table{
 
 .container-fluid h3{
     margin-top:10px;
-
-    font-size:18px;
+    font-size:16px;
     font-weight: bolder;
     text-align: center;
-    background-color: #006b60;
+    background-color: #002147;
     color: white;
     padding: 10px;
 }
@@ -97,7 +94,7 @@ table{
     display: block;
     margin: 0px;
     padding: 10px;
-    text-align: center;
+    padding-left: 20px;
 }
 .table{
     margin-top: 10px;
@@ -135,25 +132,12 @@ tr{
     padding: 20px;
     font-size: 16px;
 }
-label{
-    display: block;
-}
-footer{
-    margin-top: 20px;
-    background-color:#153e6f;
-    color: whitesmoke;
-    font-size: 70%;
-    padding: 20px;
 
-}
-#companyname{
-    color: orange;
-    font-weight: bold;
-    font-size: 14px;
-}
 @media screen and (min-width:450px){
    
-
+    body{
+        font-size: 95%;
+    }
     .row{
         padding: 20px;
     }
@@ -193,7 +177,9 @@ footer{
 }
 @media screen and (min-width : 1000px){
     
-
+    body{
+        font-size: 100%;
+    }
    
     .container-fluid h3{
         font-size: 23px;
@@ -224,18 +210,6 @@ footer{
         padding-left:200px ;
     }
 
-    footer{
-        margin-top: 20px;
-        background-color:#153e6f;
-        color: whitesmoke;
-        font-size: 100%;
-        padding: 20px;
-    
-    }
-    #companyname{
-        color: orange;
-        font-weight: bold;
-        font-size: 25px;
-    }
+
     
 }

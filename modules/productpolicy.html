@@ -5,11 +5,14 @@
        <link rel="icon" href="../img/titielogo.png" type="image/icon">
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
-       <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>      
+       <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>  
+       <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">    
        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
        <link rel="stylesheet" href="../css/productPolicy.css">
        <link rel="stylesheet" href="../navbar/navstyle.css">
+       <link rel="stylesheet" href="../footer.css">
+
 
         <script>
             $('document').ready(function(){
@@ -36,7 +39,7 @@
                 </button>  
                                              
                     <div class="collapse navbar-collapse" style="transition: 1s;" id="navbarResponse" >
-                        <ul class="navbar-nav m-auto">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link " href="../index.html">INTRO</a></li>
                             <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#loan">AAPKA TRAINING</a>
                                 <div class="dropdown-menu" id="toc">
@@ -259,16 +262,19 @@
 <!---------------------------Applicant and Income Aggregation starts-->
             <div class="container-fluid">
                 <h3>Applicant and Income Aggregation</h3>
-                <div class="container">
+                <div class="container p-0 m-0">
                     <div class="row" style="padding-bottom: 0px;" >
                     <div class="col-12 col-sm-6">
-                            <div class="card card-body">
-                                <ul>
-                                    <li>Max of 5 applicants</li>
-                                    <li>Individuals or entities</li>
-                                    <li>All property owners must be applicants</li>
-                                    <li>If only 1 applicant then a quatantor is required</li>
-                                </ul>
+                            <div class="card ">
+                                <div class="card-body m-3">
+                                    <ul>
+                                        <li>Max of 5 applicants</li>
+                                        <li>Individuals or entities</li>
+                                        <li>All property owners must be applicants</li>
+                                        <li>If only 1 applicant then a quatantor is required</li>
+                                    </ul>
+                                </div>
+                               
                             </div>
                     </div>
                     <div class="col"></div>                        
@@ -280,7 +286,7 @@
                         <div class="col-12 col-sm">
                             <div class="card mt-3 mb-3" style="">
                                 <strong class="card-header bg-dark text-white">Gross Family Income</strong>
-                                <ul class="card-body">
+                                <ul class="card-body m-3">
                                     <li>Sum of assessed income for all applicants (Main and Co) </li>
                                     <li>Will include individuals as well as entities</li>
                                     <li>Expenses and obliations will also be taken into account</li>
@@ -466,35 +472,53 @@
             </div>
  
      </div>
-<footer>
-    <div class="row">
-        <div class=" col-sm-3"></div>
-        <div class="col-6 col-sm-3">
-            <h2 id="companyname">APAC Housing Finance Pvt. Ltd.</h2>        
-            <label for="learning">About us</label>
-            <label for="learning">Vision</label>    
-            <label for="learning">Founder</label>
-            <label for="learning">Branches</label>
-            <label for="learning">Know More</label>
-            <label for="learning">Aapka Training</label>
-        </div>
-        <div class="col-6 col-sm-3 align-self-center">    
-            <strong>Follow:</strong>
-            <ul class="list-unstyled">
-                <li style="font-size: 14px;font-weight: bolder;">Facebook</li>
-                <li  style="font-size: 14px;font-weight: bolder;">Linkedin</li>
-                <li style="font-size: 14px;font-weight: bolder;">Twitter</li>
-                <li style="font-size: 14px;font-weight: bolder;">Instagram</li>
-            </ul>
+
+    
+     <section>
+        <footer>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-7 col-sm-5">
+                        <h3>APAC Housing Finance Pvt. Ltd. </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4">
+                        <h5>Address :</h5>
+                        <p>
+                            1st Floor, Ashford Center Opposite Peninsula Corporate Park, <br> Main Gate, Lower Parel West, Mumbai, <br> Maharashtra 400013
+                        </p>
+                    </div>
+              
+                    <div class="col-6 col-sm-3 offset-sm-3 ">
+                        <h5>Other Links:</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                               <li><a href="">Aapka Training</a></li> 
+                                <li><a href="">Our Products</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Feedback</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         
-            
-        </div>
-        <div class=" col-sm-3"></div>
-    
-    </div>
-    
-       
-    </footer>
+            </div>
+            <div class="row justify-content-center followus">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <h5 class="mt-2 ml-3">Follow Us:</h5>
+                    <div class="wrapperfollow">
+                        <span class="fa fa-facebook fa-lg followitem"></span>
+                        <span class="fa fa-instagram fa-lg followitem"></span>
+                        <span class="fa fa-linkedin fa-lg followitem"></span>
+                        <span class="fa fa-twitter fa-lg followitem"></span>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
     
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>

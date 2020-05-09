@@ -1,5 +1,4 @@
 /*  this stylesheet is designed with desktop first ideology */
-
 *{
     padding: 0px;
     margin: 0px;
@@ -17,80 +16,51 @@ body{
 .container-fluid{
     padding: 0px;
 }
+.bgimg{
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+    
+}
 
 #arrow{
-    padding-top: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#arrow-diag{
-    border: solid 1px ;
-    border-radius: 10px; 
+#arrow i {
+   font-size: 35px; 
+   color: orange;
+}
+.arrow-diag{
     padding: 10px;  
-    background-color: #deeeff;
-    color: black;
-    box-shadow: 3px 3px 35px black;
-   
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
 }
-#slider {
-    overflow: hidden;
-  
-    
- }
-
-#slider figure{
-    position: relative;
-    width: 500%;
-    margin:0;
-    left:0;
-    animation:20s slider infinite;
+.founder{
+    background-color: #00b7ff12;
 }
 
-#slider figure img{
-    width: 20%;
-    float: left;
+.founderImg{
+    border-radius: 50%;
 }
-
-@keyframes slider{
-    0% {
-       left:0%
-    }
-    20%{
-        left: 0%;
-    }
-    25%{
-        left: -100%;
-    }
-    45%{
-        left: -100%;
-    }
-
-    50%{
-        left: -200%;
-    }
-    70%{
-        left: -200%;
-    }
-
-    75%{
-        left: -300%;
-    }
-    
-    95%{
-        left: -300%;
-    }
-
-    100%{
-        left: -400%
-    }
-
+.founderName{
+    color: #032147;
+    padding:10px;
+    margin: 10px;
+    font-weight: bold;
 }
-
 #intro,#vision,#apacHousing{
     padding-top:15px;
     overflow-x: hidden;
 }
-#intro #intro-heading , #vision h1, #apacHousing h1 ,#societalimpact h3 {
+#intro h1 , #vision h1, #apacHousing h1 ,#societalimpact h3 {
     padding: 10px;
-    background-color: #006b60;
+    background-color: #002147;
     color: aliceblue;
     font-weight: bolder;
     font-size: 22px;
@@ -153,7 +123,6 @@ body{
 }
 #vision {
     box-shadow: 3px 3px 15px grey;
-    border-radius: 30px;
     background-color: white;
     overflow-x: hidden;
  
@@ -201,25 +170,7 @@ body{
     font-size: 20px;
 }
 
-footer{
-    margin-top: 20px;
-    background-color:#153e6f;
-    color: whitesmoke;
-    font-size: 70%;
-    padding: 10px;
 
-}
-#companyname{
-    color: orange;
-    font-weight: bold;
-    font-size: 18px;
-}
-#footer li{
-   
-}
-label{
-    display: block;
-}
 @media screen and (max-width : 991px){
 
  
@@ -231,7 +182,9 @@ label{
     #intro h1, #vision h1,#apacHousing h1{
         font-size: 30px;
     }
-
+    .founder li{
+        font-size: 14px;
+    }
     .card ul li {
         font-size: 16px;
     }
@@ -278,21 +231,28 @@ label{
 
 @media screen and (max-width:450px){
 
-
     .breadcrumb a{
         font-size: 12px;
     }
-    #arrow{
-        padding-top: 40px;
+    .founder li{
+        font-size: 14px;
     }
-    #arrow-diag{
-        border: solid 1px ;
-        border-radius: 10px; 
+    .bgimg{
+        height: 250px;
+    }
+    #arrow{
+        height: 250px;
+    }
+    .arrow-diag{
         padding: 10px;  
-        background-color: #deeeff;
-        box-shadow: 3px 3px 15px grey;
-        font-size: 15px;
-
+        color: white;
+        font-size: 17px;
+    }
+    .founder li{
+        font-size: 13px;
+    }
+    .founderName{
+        text-align: center;
     }
     .card img{
         height: 100px;
@@ -302,7 +262,7 @@ label{
 
 
     #intro h1, #vision h1,#apacHousing h1{
-        font-size: 16px;
+        font-size: 15px;
     }
 
 
@@ -346,18 +306,6 @@ label{
 
     #statsinfo{
         opacity: 1;
-    }
-    footer{
-     
-        padding: 15px;
-    
-    }
-    #companyname{
- 
-        font-size: 14px;
-    }
-    #footer li{
-       
     }
   
 

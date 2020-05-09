@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/de43eed957.js" crossorigin="anonymous"></script>      
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">      
         <link rel="stylesheet" href="../navbar/navstyle.css">
+        <link rel="stylesheet" href="../footer.css">
         <link rel="stylesheet" href="../css/toc.css">
         <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
        
@@ -24,7 +25,7 @@
                             <i class="fas fa-ellipsis-v text-white"></i>
                         </button>                            
                             <div class="collapse navbar-collapse" style="transition: 1s;" id="navbarResponse" >
-                                <ul class="navbar-nav m-auto">
+                                <ul class="navbar-nav ml-auto">
                                     <li class="nav-item"><a class="nav-link" href="../index.html">INTRO</a></li>
                                     <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#loan">AAPKA TRAINING</a>
                                         <div class="dropdown-menu" id="toc">
@@ -54,14 +55,9 @@
    </nav>
 
 <!-------------table of contents------------>
-                
-                <div class="container-fluid">                                
-                    <h3>Table of Contents</h3>
-                </div>
-
                 <div class="container-fluid">
                     <div class="row justify-content-center">
-                            <div class="col-sm-10">
+                            <div class="col-sm-12">
                                 <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s">
                                     <div class="col-5 col-sm-4 col-md-3 orange" style="color:white" >
                                          <a href="../index.html"><h5>Introduction to APAC Group</h5> </a>
@@ -73,7 +69,7 @@
                                         <a href="mortgageTerminology.html"> <h5>Mortgage Terminology</h5></a>
                                     </div>
                                 </div>
-                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                                <div class="row justify-content-center align-items-center wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" >
                                     <div class="col-5 col-sm-4 col-md-3 blue" style="color:white" >
                                         <a href="productpolicy.html"> <h5>Products + Credit Policy</h5></a>
                                     </div>
@@ -114,35 +110,51 @@
                  </div>
             </div>
                 
-<footer>
-    <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-6 col-sm-3">
-            <h2 id="companyname">APAC Housing Finance Pvt. Ltd.</h2>        
-            <label for="learning">About us</label>
-            <label for="learning">Vision</label>    
-            <label for="learning">Founder</label>
-            <label for="learning">Branches</label>
-            <label for="learning">Know More</label>
-            <label for="learning">Aapka Training</label>
-        </div>
-        <div class="col-6 col-sm-3 align-self-center">    
-            <strong>Follow:</strong>
-            <ul class="list-unstyled">
-                <li style="font-size: 14px;">Facebook</li>
-                <li  style="font-size: 14px;">Linkedin</li>
-                <li style="font-size: 14px;">Twitter</li>
-                <li style="font-size: 14px;">Instagram</li>
-            </ul>
+    <section>
+        <footer>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-7 col-sm-5">
+                        <h3>APAC Housing Finance Pvt. Ltd. </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-sm-4">
+                        <h5>Address :</h5>
+                        <p>
+                            1st Floor, Ashford Center Opposite Peninsula Corporate Park, <br> Main Gate, Lower Parel West, Mumbai, <br> Maharashtra 400013
+                        </p>
+                    </div>
+              
+                    <div class="col-6 col-sm-3 offset-sm-3 ">
+                        <h5>Other Links:</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                               <li><a href="">Aapka Training</a></li> 
+                                <li><a href="">Our Products</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Feedback</a></li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         
-            
-        </div>
-        <div class="col-sm-3"></div>
-    
-    </div>
-    
-       
-    </footer>
+            </div>
+            <div class="row justify-content-center followus">
+                <div class="col-10 col-sm-8 col-md-5 col-lg-4">
+                    <h5 class="mt-2 ml-3">Follow Us:</h5>
+                    <div class="wrapperfollow">
+                        <span class="fa fa-facebook fa-lg followitem"></span>
+                        <span class="fa fa-instagram fa-lg followitem"></span>
+                        <span class="fa fa-linkedin fa-lg followitem"></span>
+                        <span class="fa fa-twitter fa-lg followitem"></span>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
+
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

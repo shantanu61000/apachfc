@@ -4,7 +4,7 @@ footer{
     color: white;
 }
 
-footer h3{
+footer h4{
     font-size: 17px;
     font-weight: bolder;
     color: #ffa600;
@@ -48,7 +48,7 @@ footer .followus{
 }
 
 @media (min-width:500px){
-    footer h3{
+    footer h4{
         font-size: 20px;
        
     }
@@ -72,7 +72,7 @@ footer .followus{
     }
 }
 @media (min-width:1024px){
-    footer h3{
+    footer h4{
         font-size: 25px;
        
     }

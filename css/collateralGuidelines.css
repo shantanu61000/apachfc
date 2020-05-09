@@ -9,6 +9,7 @@ body{
 }
 .breadcrumb a{
     color: black;
+    font-size: 12px;
 }
 section{
     background-color: #00b7ff12;
@@ -47,6 +48,9 @@ h5{
     body{
         font-size: 90%;
     }
+    .breadcrumb a{
+        font-size: 14px;
+    }
     section h3{
         font-size: 20px;
     }
@@ -61,6 +65,9 @@ h5{
 @media(min-width:1024px){
     body{
         font-size: 95%;
+    }
+    .breadcrumb a{
+        font-size: 15px;
     }
  .card{
      min-height: 210px;

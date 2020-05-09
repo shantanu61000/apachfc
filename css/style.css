@@ -11,6 +11,7 @@ body{
 
 }
 .breadcrumb a{
+    color: black;
     font-size: 12px;
 }
 .container-fluid{

@@ -9,6 +9,7 @@ body{
 }
 .breadcrumb a{
     color: black;
+    font-size: 12px;
 }
 h5{
     padding: 0px;
@@ -19,11 +20,16 @@ h2{
     text-align: center;
 }
 th{
-    align-items: center;
     text-align: center;
 }
+td{
+    min-width: 150px;
+}
 table{
-    background-color: #ffffff;
+background-color: white;
+}
+.card-header{
+    font-size:14px;
 }
 section h3{
     background-color: #002147;
@@ -40,11 +46,13 @@ section h3{
     width: 40px;
     height: auto;
 }
-.card{
-}
+
 @media (min-width:500px){
     body{
         font-size: 95%;
+    }
+    .breadcrumb a{
+        font-size: 14px;
     }
     section h3{
         font-size: 19px;
@@ -58,6 +66,9 @@ section h3{
 @media (min-width:1200px){
     body{
         font-size: 100%;
+    }
+    .breadcrumb a{
+        font-size: 15px;
     }
     section h3 {
         font-size: 21px;

@@ -1,0 +1,62 @@
+body{
+    font-size: 80%;
+    overflow-x: hidden;
+    background-color: #ffccbc1f;
+
+}
+.breadcrumb{
+    margin-top: 100px;
+}
+.breadcrumb a{
+    color: black;
+    font-size: 12px;
+}
+
+section h3{
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+.reasons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 60px;
+    border-radius: 5px;
+}
+.reasons p{
+    text-align: center;
+    color: white;
+}
+section{
+    background-color: #ffffff65
+}
+h5{
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+@media (min-wdth:575px){
+    body{
+        font-size: 90%;
+    }
+    .breadcrumb a{
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width:1024px){
+    body{
+        font-size: 95%;
+    }
+    .breadcrumb a{
+        font-size: 15px;
+    }
+}

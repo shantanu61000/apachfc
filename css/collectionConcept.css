@@ -42,12 +42,97 @@ h5{
     text-decoration: underline;
 }
 
-@media (min-wdth:575px){
+.softBucket{
+    background-color: #2e69ae;
+    color: white;
+    padding: 20px;
+    margin:10px;
+    min-height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+.legalAction{
+    background-image: url("../img/modules/collectionConcept/triangle.png");
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.one{
+    background: rgba(0, 0, 0, 0.50);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.two{
+    background: rgba(0, 0, 0, 0.60);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.three{
+    background: rgba(0, 0, 0, 0.70);
+    margin: 10px;
+    border-radius:5px;
+    padding: 10px;
+
+}
+.four{
+    background: rgba(0, 0, 0, 0.80);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.heading{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.desc{
+    display: none;
+    transition: display 0.2s ease-in-out;
+}
+.firstdesc{
+    display:block;
+}
+@media (min-width:576px){
     body{
         font-size: 90%;
     }
     .breadcrumb a{
         font-size: 14px;
+    }
+
+    .right
+    {
+        transform: rotate(-90deg);
+    }
+    .left{
+        transform: rotate(90deg);
+    }
+    .softBucket{
+      margin: 0px;
+      min-height: 150px;
+      width:auto;
+      font-weight: 600;
+    }
+    .legalAction{
+        background-image: url("../img/modules/collectionConcept/triangle.png");
+        text-align: center;
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+     
+    }
+    .desc{
+        display: block;
     }
 }
 
@@ -58,5 +143,13 @@ h5{
     }
     .breadcrumb a{
         font-size: 15px;
+    }
+    .legalAction{
+        background-image: url("../img/modules/collectionConcept/triangle.png");
+        text-align: center;
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
     }
 }

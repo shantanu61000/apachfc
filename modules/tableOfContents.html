@@ -14,7 +14,9 @@
        
 </head>
     <body>
-
+        <div id="loaderWrapper">
+            <div class="Outer"><span class="loader-text">Loading..</span></div>    
+        </div>
         <div class="container-fluid">    
             
 <!-------------navbar starts------------>
@@ -155,12 +157,13 @@
             </div>
         </footer>
     </section>
-
-    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../node_modules/wow.js/dist/wow.min.js"></script>
-    <script>
+    <script type="text/javascript" src="../js/loadingScript.js"></script>
+
+  <script>
         new WOW().init();
     </script>
     </body>

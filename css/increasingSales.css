@@ -1,0 +1,81 @@
+body{
+    font-size: 80%;
+    overflow-x: hidden;
+    background-color: #ffccbc1f;
+
+}
+.breadcrumb{
+    margin-top: 100px;
+}
+.breadcrumb a{
+    color: black;
+    font-size: 12px;
+}
+h5{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    color: white;
+    min-height: 50px;
+    font-weight: 700;
+}
+.arrow{
+    background-image: url("../img/modules/increasingSales/arrow.png");
+    background-size: contain;
+}
+.successMantra li{
+    list-style:square;
+}
+.square li{
+    list-style: square;
+}
+.card{
+    box-shadow: 1px 1px 30px grey;
+}
+section h3{
+    background-color: #002147;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+@media (min-width:768px){
+    body{
+        font-size: 95%;
+    }
+    .fraudItem{
+        height: 100px;
+    }
+    .breadcrumb a{
+        font-size: 14px;
+    }
+    section h3{
+        font-size: 19px;
+    }
+    h5{
+        font-size: 17px;
+    }
+}
+
+@media (min-width:1024px){
+    body{
+        font-size: 100%;
+    }
+  
+    .breadcrumb a{
+        font-size: 15px;
+    }
+    section h3{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 19px;
+    }
+}

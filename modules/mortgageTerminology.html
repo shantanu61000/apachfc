@@ -4,6 +4,9 @@
         <title>Mortgage Terminology</title>
         <link rel="icon" href="../img/titielogo.ico" type="image/icon">
         <meta charset="utf-8">
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
@@ -39,7 +42,7 @@
                             <a class="dropdown-item" href="fraudControl.html">Fraud Control</a><div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="fairPractice.html">Fair Practice Code</a><div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="increasingSales.html">Sales Productivity</a><div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="comingSoon.html">Miscellaneous</a><div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="misc.html">Miscellaneous</a><div class="dropdown-divider"></div>
                         </div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#contactus">CONTACT US</a></li>
@@ -84,7 +87,7 @@
                         <h3 class="sectionTitle m-auto" data-toggle="collapse" data-target="#storyOne" >LTV Loan to Value</h3>
                     </div>
                    
-                    <div class="card-body collapse show" id="storyOne" data-parent="#storyAccordian">
+                    <div class="card-body collapse" id="storyOne" data-parent="#storyAccordian">
                         <div class="sectionBody">
                             <div class="row mt-2 align-items-center wow fadeInLeft">
                                 <div class="col-4 col-sm-2">
@@ -196,7 +199,7 @@
                                <img src="../img/modules/mortgageTerminology/budgetAnalysis/2.png" alt="budget" class="img-fluid">
                            </div>
                        </div>
-                       <div class="row align-items-center">
+                       <div class="row align-items-center mt-3">
                                 <div class="col-12 col-sm-4 offset-sm-1 mt-4">
                                     <img src="../img/modules/mortgageTerminology/budgetAnalysis/3.png" alt="budget" class="img-fluid">
                                 </div>
@@ -209,31 +212,31 @@
                         <div class="col-12 col-sm-3 mt-4">
                             <img src="../img/modules/mortgageTerminology/budgetAnalysis/5.png" alt="budget" class="img-fluid">
                         </div>
-                        <div class="col-12 col-sm">
+                        <div class="col-12 col-sm mt-4">
                             <div class="card">
                                 <h6 class="card-header text-white" style="font-weight:bolder">Calculating FOIR</h6>  
                                 <div class="card-body">
                                     <div class="row bg-secondary text-white mb-1">
-                                        <div class="col-2 col-sm-2 foir"> <i class="fas fa-wallet fa-lg"></i> </div>
+                                        <div class="col-2 col-sm-2 foir"> <i class="fa fa-wallet fa-lg"></i> </div>
                                          <div class="col d-flex align-items-center"> <strong>Income: Rs 50,000 pm</strong></div>
                                       </div>
 
                                      <div class="row bg-warning text-white mb-1">
-                                         <div class="col-2 col-sm-2 foir"> <i class="fas fa-car fa-lg"></i> </div>
+                                         <div class="col-2 col-sm-2 foir"> <i class="fa fa-car fa-lg"></i> </div>
                                          <div class="col  d-flex align-items-center"> <strong>Car loan installment: Rs 8,000 pm</strong></div>
                                       </div>  
 
                                      <div class="row bg-info text-white mb-1">
-                                         <div class="col-2 col-sm-2 foir"> <i class="fas fa-ruler-vertical fa-lg"></i> </div>
+                                         <div class="col-2 col-sm-2 foir"> <i class="fa fa-ruler-vertical fa-lg"></i> </div>
                                          <div class="col  d-flex align-items-center"> <strong>Fridge loan installment: Rs 2,000 pm</strong></div>
                                      </div>  
 
                                      <div class="row bg-success text-white mb-1">
-                                          <div class="col-2 col-sm-2 foir"> <i class="fas fa-house-user fa-lg"></i> </div>
+                                          <div class="col-2 col-sm-2 foir"> <i class="fa fa-house-user fa-lg"></i> </div>
                                           <div class="col  d-flex align-items-center"> <strong>Proposed housing loan installment: Rs 15,000 pm</strong></div>
                                      </div> 
                                      <div class="row text-white mb-1" style="background-color: orange;">
-                                         <div class="col-2 col-sm-2 foir"> <i class="fab fa-bitcoin fa-lg"></i> </div>
+                                         <div class="col-2 col-sm-2 foir"> <i class="fa fa-bitcoin fa-lg"></i> </div>
                                           <div class="col  d-flex align-items-center"> <strong>FOIR =[ sum addition of all installments i.e. Car, Fridge, Housing/50,000 or 50 % or 0.05] i.e. Rs 25,000</strong></div>
                                      </div>                            
                                 </div>
@@ -341,7 +344,7 @@
                             </div>
                         </div>
                     </div>
-
+                
 
                     <div class="sectionFour mt-2">
                         <div class="card">
@@ -350,7 +353,7 @@
                             </div>
                             <div class="card-body collapse" data-parent="#storyAccordian" id="storyFour">
                                 <div class="row justify-content-center align-items-center">
-                                    <div class="col-1" style="padding: 0px;"> <span class="fas fa-backward" id="prev" onclick="prevAu();" role="button"></span></div>
+                                    <div class="col-1" style="padding: 0px;"> <span class="fa fa-backward" id="prev" onclick="prevAu();" role="button"></span></div>
                                     <div class="col-10 col-sm-10" style="padding: 0px;">
                                         <div>
                                             <img src="../img/modules/mortgageTerminology/flatVsReducing/1.png" alt="1" id="content" class="img-fluid">
@@ -359,7 +362,7 @@
                                         </div>
                                     </div>
                                     <div class="col-1" style="padding: 0px;">
-                                         <span class="fas fa-forward" id="next" onclick="nextAu();" role="button" style="padding-left: 2px;"></span>
+                                         <span class="fa fa-forward" id="next" onclick="nextAu();" role="button" style="padding-left: 2px;"></span>
                                     </div>
                                </div>
                             </div>
@@ -425,10 +428,208 @@
                         </div>
                     </div>
 
+                    <div class="sectionCibil mt-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="sectionTitle  m-auto"  data-toggle="collapse" data-target="#cibil">CIBIL Score</h3>
+                            </div>
+                            <div class="card-body collapse show" id="cibil" data-parent="#storyAccordian">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p>Your CIBIL score or credit score is an important factor in determining whether you will be approved for a loan or not. CIBIL scores are generated based on your credit history which includes past credit taken and payment patterns in relation to them. </p>
+                                    </div>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-10 col-sm-5 col-md-4">
+                                            <img src="../img/modules/mortgageTerminology/cibil/creditScore.png" alt="Credit Score" class="img-fluid">
+                                        </div>
+                                        <div class="col-10 col-sm-6 pt-3 order-sm-first">
+                                            <p> <strong> CIBIL was abbreviation for Credit Information Bureau of India Limited.</strong> It is one of the “credit bureaus” or “credit information company” which provides credit scores for an Individual consumer in India. The credit scores are in the range of 300–900. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center">  GOOD CIBIL SCORE </p>
+                                    </div>
+                                    <div class="col-10 col-sm-5 col-md-4">
+                                        <img src="../img/modules/mortgageTerminology/cibil/goodScoreBadScore.png" alt="Good Score Bad Score" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <p>The CIBIL credit score ranges from 300 to 900. The closer you are to 900, the more confidence the credit institution will have in your ability to pay the loan and hence, the better the chances of your application getting approved. Anything above 750 is considered a good credit score. All banks /NBFCs usually look at the credit score as one one of the manu checks they do before advancing a loan.</p>
+                                    </div>                                    
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center"> FICO SCORE / CREDIT SCORE </p>
+                                        <p>FICO - Fair Isaac Corporation is a major analytics software company that provides products and services to both businesses and consumers. Previously known as the Fair Isaac Corporation, the company changed its name to FICO in 2009 and is best known for producing the most widely used consumer credit scores that financial institutions use in deciding whether to lend money or issue credit. FICO scores range between 300 and 850. In general, scores above 650 indicate a very good credit history . The most common credit score is the FICO Score which is calculated using five main categories of credit data from your credit reports. Here they are, along with what percent of the score they account for.</p>
+                                    </div>
+                                </div>
+                                <hr>
 
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center"> WHAT IS PAYMENT HISTORY </p>
+                                    </div>
+                                    <div class="col-10 col-sm-5 col-md-4 order-sm-last">
+                                        <img src="../img/modules/mortgageTerminology/cibil/tipsToImproveCibilScore.png" alt="Tips to improve CIBIL score" class="img-fluid">
+                                    </div>
+                                    <div class="col-10 col-sm-6">
+                                        <p>Your payment history is a record of on-time, late and missed payments on past and current credit accounts. These accounts can include credit cards, lines of credit, personal loans and mortgages</p>
+                                        <p>CIBIL Score is a 3 digit numeric summary of your credit history, derived by using details found in the 'Accounts' and 'Enquiries' sections on your CIBIL Report and ranges from 300 to 900. The closer your score is to 900, the higher are the chances of your loan application getting approved</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center">5 MAIN CREDIT CATEGORY</p>
+                                    </div>
+                                    <div class="col-10 col-sm-5 col-md-4">
+                                        <img src="../img/modules/mortgageTerminology/cibil/5category.png" alt="Five Main Credit Category Payment History Amount Owned Length of Credit History credit mix new credit" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-6 ">
+                                        <ul>
+                                            <li><span class="font-weight-bold"> Payment History (35%).</span> Whether you’ve paid your past bills on time</li>
+                                            <li><span class="font-weight-bold">Amounts Owed (30%).</span> How much credit and how many loans you’re using</li>
+                                            <li><span class="font-weight-bold">Length of Credit History (15%).</span> How long you’ve had credit</li>
+                                            <li><span class="font-weight-bold">Credit Mix (10%).</span> The types of credit you’ve had (e.g., mortgage, auto loan, credit cards)</li>
+                                            <li><span class="font-weight-bold">New Credit (10%).</span> Frequency of credit inquires and new account openings</li>
+                                        </ul>
+                                    </div>                                   
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center">MAIN OBSERVATION IN CIBIL</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 sol-md-9 p-0">
+                                        <img src="../img/modules/mortgageTerminology/cibil/cibilRange.png" alt="Cibil range Image" class="img-fluid"> 
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <p>CIBIL score 0 means that information about the borrower's credit history is available only up to a period of less than 6 months in total.... </p>
+                                        <p>CIBIL score -1 means that no information about the borrower's credit history whatsoever. There is no information to report, hence this score is also known as “NH” or “no history”.</p>
+                                        <p>Standard (STD): Payments being made within 90 days. </p>
+                                        <p>Special Mention Account (SMA): Special account created for reporting Standard Accounts moving toward Sub-Standard. </p>
+                                        <p>Sub-Standard (SUB): Payments being made after 90 days.</p>
+                                        <p>Doubtful (DBT): The account has remained Sub-Standard for 12 months</p>
+                                        <p>Loss – LSS: an account where loss has been identified and remains uncollectible</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center">CLOSED / SETTLED / WRITTEN OFF</p>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <p><strong>Closed:</strong> If you find a date adjacent to the 'Closed' field in your account section, this means that that loan account has been closed by the lender. In other words, it means you have paid off your loan in full and the bank has reported this account as "Closed" to CIBIL. </p>
+                                        <p>After closing a loan it is important to obtain a No Dues Certificate (NDC) from the lender, banks issue a No Due Certificate (NDC) or Closure Letter while closing loans stating that the loan stands closed ..</p>
+                                        <p><strong>Settled:</strong> If you have partly paid the dues and settled a loan or credit card then the status will reflect as "Settled" in your credit report. When you settle an account, it means that the credit institution is agreeing to accept a payoff amount that is less than the amount originally owed. Because the lending institution is taking a loss, a status of "settled" may be considered potentially negative and detrimental to the chances of loan approval</p>
+                                        <p><strong>Written-off:</strong> When you are not able to make payments against the outstanding loan/credit card amount for more than 180 days, the lender is required to "write-off" the amount in question. The lender then proceeds to report this on your CIBIL Report as "Written off". This is a detrimental status for the approval of your loan or credit card applications as the lender may not want to provide a loan or credit card to someone who has not paid dues on past loans or credit cards.
+                                            If the CIBIL Report shows a "settled" or "written off" status, then it may get difficult for the individual to obtain a loan.</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-primary font-weight-bold text-center">CREDIT BUREAUS: OVERVIEW</p>
+                                    </div>
+                                    <div class="col-12 col-sm-7 col-md-8">
+                                        <ul>
+                                            <li>Generally, Credit Bureaus give out individual credit scores. A credit score is a summary of the credit report, capturing an in-depth credit history of an individual, both past and present. </li>
+                                            
+                                            <li>This information usually covers the credit history, number and type of accounts held by the individual. Following are the types in India
+                                                <ol>
+                                                    <li>Transunion CIBIL</li>
+                                                    <li>Experian</li>
+                                                    <li>Equifax</li>
+                                                    <li>CRIF Highmark</li>
+                                                </ol>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-8 col-sm-6">
+                                        <img src="../img/modules/mortgageTerminology/cibil/transUnion.png" alt="Credit Bureau TranUnion" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <ul>
+                                            <li>In India, Transunion CIBIL Limited (or CIBIL – Credit Information Bureau India Limited CIBIL) is one of the foremost credit bureaus licensed to operate by the Reserve Bank of India (RBI). </li>
+                                            <li>CIBIL gathers and preserves records of an individual’s payments pertaining to credit cards and loans.</li>
+                                            <li>A good CIBIL score is a crucial component of one’s financial life in India.</li>
+                                            <li>CIBIL score comes with a cost. CIBIL is one of the oldest credit bureaus in India, alongside Equifax, Experian and CRIF High Mark authorized by RBI.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-8 col-sm-6">
+                                        <img src="../img/modules/mortgageTerminology/cibil/experian.png" alt="Credit Bureau Experian" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <ul>
+                                            <li>In India Experian operate two firms namely </li>
+                                            <li>Experian Services India Private Ltd </li>
+                                            <li>Experian Credit Information Company of India Private Ltd </li>
+                                            <li>Experian gathers the credit information of individuals and represents it as a credit report to lenders like NBFCs and banks </li>
+                                            <li>The Experian Credit Report is helpful in deciding the creditworthiness of the individuals who have applied for the loan. </li>
+                                            <li>An Experian credit report has the entire credit data related to the individuals who have opted for collecting the credit report from Experian </li>
+                                            <li>An Experian Credit Score is obtained from the Credit Report. The lending authorities choose to provide credit to such individuals who have credit score that is higher than the other individuals. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center">
+                                    <div class="col-8 col-sm-6">
+                                        <img src="../img/modules/mortgageTerminology/cibil/equifax.png" alt="Credit Bureau Equifax" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <ul>
+                                            <li>Headquartered in USA, Equifax Inc. operates in 15 countries throughout North America, Europe, Asia and Latin America. </li>
+                                            <li>Equifax India Collects the information from their respective members, processes the data to a usable and readable style and provide reports  related to credit information and other relevant products that is within the purview of CIC Act, on consumers for many different types of uses </li>
+                                            <li>By launching its microfinance bureau in May 2011, Equifax India is providing portfolio reviews and risk scores of various microfinance institutions across the country </li>
+                                            <li>Tips to Maintain Healthy Credit History for Equifax- set a schedule for payments,pay the bills on time, proper mix of credit </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <p class="text-center font-weight-bold text-primary">CIRF - HIGH MARK</p>
+                                    </div>
+                                    <div class="col-10 col-sm-5 col-md-5">
+                                        <img src="../img/modules/mortgageTerminology/cibil/cirf.png" alt=" CIRF" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm">
+                                        <ul>
+                                            <li>CRIF Highmark founded in the year 2007, it's
+                                                received a certificate of Registration from RBI
+                                                to operate as a Credit Information Bureau in the
+                                                year 2010 in India.</li>
+                                            <li>CRIF High Mark is India's leading credit
+                                                information solutions and comprehensive services                                    
+                                                provider related to information across the
+                                                important segments of consumer, micro-finance and
+                                                commercial.</li>
+                                            <li>Major Products and Services of CRIF High Mark for
+                                                Consumers Include</li>
+                                            <li>Geo analytics consulting</li>
+                                            <li>Alerts</li>
+                                            <li>Portfolio Management</li>
+                                            <li>CRIF High Mark Credit report</li>
+                                        </ul>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            
     
             <section class="m-0 p-0 mt-4">
                 <footer>

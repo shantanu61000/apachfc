@@ -48,6 +48,7 @@ table{
 .li-padding li{
     padding-bottom:10px ;
 }
+
 @media (min-width:575px){
     body{
         font-size: 90%;

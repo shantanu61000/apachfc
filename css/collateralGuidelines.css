@@ -1,6 +1,6 @@
 body{
     font-size: 80%;
-    overflow-x: auto;
+    overflow-x: hidden;
     background-color: #ffccbc1f;
 
 }
@@ -12,7 +12,7 @@ body{
     font-size: 12px;
 }
 section{
-    background-color: #00b7ff12;
+  
     padding: 20px 0px;
 }
 .card {
@@ -42,7 +42,12 @@ h5{
 .square li{
     list-style: square;
 }
-
+table{
+ background-color: white;
+}
+.li-padding li{
+    padding-bottom:10px ;
+}
 @media (min-width:575px){
     body{
         font-size: 90%;

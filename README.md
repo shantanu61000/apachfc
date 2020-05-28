@@ -1,2 +1,10 @@
 # apachfc
-internship files
+to host the server locally:
+
+install npm and node 
+
+open bash terminal in the project folder and run the following command:
+npm install
+
+after installing all the dependencies run -
+npm start

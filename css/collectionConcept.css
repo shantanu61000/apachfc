@@ -13,6 +13,7 @@ body{
 }
 
 section h3{
+    position: sticky;
     background-color: #002147;
     color: white;
     text-align: center;

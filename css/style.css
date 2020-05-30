@@ -17,6 +17,10 @@ body{
     color: black;
     font-size: 12px;
 }
+#root-tabs-nav a{
+    font-weight: 700;
+  
+}
 .container-fluid{
     padding: 0px;
 }
@@ -62,7 +66,7 @@ body{
     padding-top:15px;
     overflow-x: hidden;
 }
-#intro h1 , #vision h1, #apacHousing h1 ,#societalimpact h3 {
+#intro h1 ,#events h1, #team h1, #vision h1, #apacHousing h1 ,#societalimpact h3 {
     padding: 10px;
     background-color: #002147;
     color: aliceblue;
@@ -126,6 +130,33 @@ body{
 .card ul li{
     font-size: 18px;
 }
+.events{
+    border-radius: 9px;
+    box-shadow: unset;
+    min-height: 250px;
+}
+.events .card-header{
+    border-radius: 10px;
+    background-color: #153d6e;
+    font-size: 18px;
+}
+.events:hover{
+    box-shadow: 0px 1px 20px black;
+    width: 101%;
+    transition: 0.5s ease-in-out;
+}
+.tab-content{
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+}
+.nav-tabs a{
+    color: #0062d1;
+    font-weight: bold;
+}
+.tab-content a{
+    color: orange;
+}
 #vision {
     box-shadow: 3px 3px 15px grey;
     background-color: white;
@@ -186,7 +217,7 @@ body{
         font-size: 16px;
     }
 
-    #intro h1, #vision h1,#apacHousing h1{
+    #intro h1,#events h1,#team h1, #vision h1,#apacHousing h1{
         font-size: 30px;
     }
     .founder li{
@@ -205,6 +236,9 @@ body{
         border-radius: 50%;
         display: block;
         margin: auto;
+    }
+    .events .card-header{
+        font-size: 16px;
     }
     #vision img{
 
@@ -268,12 +302,9 @@ body{
 
 
 
-    #intro h1, #vision h1,#apacHousing h1{
+    #intro h1,#events h1,#team h1 ,#vision h1,#apacHousing h1{
         font-size: 15px;
     }
-
-
-
     .card{
         margin-left:20px;
         margin-right:20px;
@@ -284,6 +315,23 @@ body{
     }
     .card .card-title h3{
         font-size: 15px;
+    }
+    .events{
+        min-height: unset;
+    }
+    .events .card-header{
+        font-size: 13px;
+    }
+    #root-tabs-nav a{
+        font-size: 13px;
+        padding: 10px ;
+    }
+    .nav-tabs a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .tab-content ul li{
+        font-size: 11px;
     }
     #vision{
         width:100%;

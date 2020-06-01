@@ -55,11 +55,9 @@ body{
     display: flex;
     align-items: center;
 }
-#play{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    width: 30px;
+#play,#play2{
+    margin: 10px;
+    width: 35px; 
     height: auto;
 }
 

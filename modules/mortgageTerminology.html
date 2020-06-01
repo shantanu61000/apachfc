@@ -344,7 +344,29 @@
                             </div>
                         </div>
                     </div>
-                
+                    
+                    <div class="sectionFour mt-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="sectionTitle m-auto" data-toggle="collapse" data-target="#test">Test Section</h3>
+                            </div>
+                            <div class="card-body collapse" data-parent="#storyAccordian" id="test">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-10 col-sm-10" style="padding: 0px;">                                        
+                                            <img src="../img/modules/mortgageTerminology/flatRate/2.png" alt="1" id="content2" class="img-fluid">                            
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-auto" style="padding: 0px;">
+                                        <span class="fa fa-backward" id="prev2" onclick="prevAu2();" role="button"></span>
+                                        <img src="../img/modules/mortgageTerminology/flatVsReducing/play.png" alt="play" id="play2" role="button" class="img-fluid" onclick="playPause2();">
+                                        <span class="fa fa-forward" id="next" onclick="nextAu2();" role="button"></span>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                                          
+                    </div>
 
                     <div class="sectionFour mt-2">
                         <div class="card">
@@ -353,18 +375,15 @@
                             </div>
                             <div class="card-body collapse" data-parent="#storyAccordian" id="storyFour">
                                 <div class="row justify-content-center align-items-center">
-                                    <div class="col-auto" style="padding: 0px;">
-                                         <span class="fa fa-backward" id="prev" onclick="prevAu();" role="button"></span>
+                                    <div class="col-10 col-sm-10" style="padding: 0px;">                                    
+                                            <img src="../img/modules/mortgageTerminology/flatVsReducing/1.png" alt="1" id="content" class="img-fluid">                            
                                     </div>
-                                    <div class="col-10 col-sm-10" style="padding: 0px;">
-                                        <div>
-                                            <img src="../img/modules/mortgageTerminology/flatVsReducing/1.png" alt="1" id="content" class="img-fluid">
-                                            <img src="../img/modules/mortgageTerminology/flatVsReducing/play.png" alt="play" id="play" role="button" class="img-fluid" onclick="playPause();">
-                            
-                                        </div>
-                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
                                     <div class="col-auto" style="padding: 0px;">
-                                         <span class="fa fa-forward" id="next" onclick="nextAu();" role="button"></span>
+                                        <span class="fa fa-backward" id="prev" onclick="prevAu();" role="button"></span>
+                                        <img src="../img/modules/mortgageTerminology/flatVsReducing/play.png" alt="play" id="play" role="button" class="img-fluid" onclick="playPause();">
+                                        <span class="fa fa-forward" id="next" onclick="nextAu();" role="button"></span>
                                     </div>
                                </div>
                             </div>
@@ -686,105 +705,10 @@
             <script>
                  console.log("inside call");
                 new WOW().init();
-
-                var songs = ["audio/2.mp3"];
-
-                var au = new Audio();
-                
-                window.onLoad = setTimeout(function(){playSong();},2000);
-
-                function playSong(){
-                    au.src="../audio/1.wav";                
-                    au.play();
-                }
             </script>
   
-  <script>
-
-
-    var play= document.getElementById("play");
-    var prev = document.getElementById("prev");
-    var next = document.getElementById("next");
-    var content = document.getElementById("content");
-  
-    var status = 0;
-    var audios = ["audio/1.wav","audio/2.wav","audio/3.wav","audio/4.wav","audio/5.wav","audio/6.wav","audio/7.wav"];
-    var slides = ["../img/modules/mortgageTerminology/flatVsReducing/1.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/2.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/3.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/4.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/5.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/6.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/7.png"];
-    var currentAudioIndex = 0;
-    var au = new Audio();
-
-
-    function playAu(){
-            au.src=audios[currentAudioIndex];
-            content.setAttribute("src",slides[currentAudioIndex]);
-            au.play();
-            play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/pause.png");
-    }
-
-    function playPause(){
-        if(currentAudioIndex<6){
-            if(status==0){
-                playAu();
-                status=1;
-                play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/pause.png");
-            }
-            else{
-                 au.pause();
-                 play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/play.png");
-                 status=0;
-                }
-        }
-        else{
-            currentAudioIndex=0;
-            playAu();
-        }
-        
-    }
-
-
-    au.addEventListener("ended",function (){
-     setTimeout(function(){
-        nextAu();
-     },500);  
-    })
-
-    function nextAu(){
-        if(currentAudioIndex<6){
-            currentAudioIndex++;
-            playAu();      
-        } 
-        else{
-
-          
-            play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/play.png");
-            alert("end");
-        }
-    }
-
-    function prevAu(){
-        if(currentAudioIndex>0){
-            currentAudioIndex--;
-            playAu();
-
-        } 
-     
-     else{
-            alert("end");
-          
-        }
-    }
-
-
-
-</script>
-  
-  
+            <script src="../js/mortgageTerminology.js"></script>
+            <script src="../js/mortgageTerminology2.js"></script>
   
   
   

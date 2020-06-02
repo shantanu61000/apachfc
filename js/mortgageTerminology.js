@@ -4,7 +4,7 @@ var play= document.getElementById("play");
     var content = document.getElementById("content");
   
     var status = 0;
-    var audios = ["audio/1.ogg","audio/2.ogg","audio/3.ogg","audio/4.ogg","audio/5.ogg","audio/6.ogg","audio/7.ogg"];
+    var audios = ["audio/flatVsReducing/1.ogg","audio/flatVsReducing/2.ogg","audio/flatVsReducing/3.ogg","audio/flatVsReducing/4.ogg","audio/flatVsReducing/5.ogg","audio/flatVsReducing/6.ogg","audio/flatVsReducing/7.ogg"];
     var slides = ["../img/modules/mortgageTerminology/flatVsReducing/1.png",
                     "../img/modules/mortgageTerminology/flatVsReducing/2.png",
                     "../img/modules/mortgageTerminology/flatVsReducing/3.png",
@@ -17,6 +17,7 @@ var play= document.getElementById("play");
 
 
     function playAu(){
+            console.log("audio index",currentAudioIndex);
             au.src=audios[currentAudioIndex];
             content.setAttribute("src",slides[currentAudioIndex]);
             au.play();
@@ -60,7 +61,6 @@ var play= document.getElementById("play");
         } 
         else{
 
-          
             play.setAttribute("src","../img/modules/mortgageTerminology/flatVsReducing/play.png");
             alert("end");
         }

@@ -1,32 +1,33 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "internship files",
-  "main": "index.html",
-  "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+  "main": "index.php",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "wow.js": "^1.2.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shantanu61000/apachfc.git"
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "^4.5.0",
+    "lite-server": "npm run lite-server"
   },
   "author": "shantanu tripathi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shantanu61000/apacscf.git"
+  },
   "bugs": {
-    "url": "https://github.com/shantanu61000/apachfc/issues"
+    "url": "https://github.com/shantanu61000/apacscf/issues"
   },
-  "homepage": "https://github.com/shantanu61000/apachfc#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "animate.css": "^3.7.2",
-    "bootstrap": "^4.4.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "wow.js": "^1.2.2"
-  }
+  "homepage": "https://github.com/shantanu61000/apacscf#readme",
+  "description": ""
 }

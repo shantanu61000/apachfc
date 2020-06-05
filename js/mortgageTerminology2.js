@@ -20,20 +20,20 @@ var audios2 = ["audio/flatandreducing/1.ogg",
                 "audio/flatandreducing/14.ogg",];
 
 
-var slides2 = [ "../img/modules/mortgageTerminology/flatRate/1.png",
-                "../img/modules/mortgageTerminology/flatRate/2.png",
-                "../img/modules/mortgageTerminology/flatRate/3.png",
-                "../img/modules/mortgageTerminology/flatRate/4.png",
-                "../img/modules/mortgageTerminology/flatRate/5.png",
-                "../img/modules/mortgageTerminology/flatRate/6.png",
-                "../img/modules/mortgageTerminology/flatRate/7.png",
-                "../img/modules/mortgageTerminology/flatRate/8.png",
-                "../img/modules/mortgageTerminology/flatRate/9.png",
-                "../img/modules/mortgageTerminology/flatRate/10.png",
-                "../img/modules/mortgageTerminology/flatRate/11.png",
-                "../img/modules/mortgageTerminology/flatRate/12.png",
-                "../img/modules/mortgageTerminology/flatRate/13.png",
-                "../img/modules/mortgageTerminology/flatRate/14.png"];
+var slides2 = [ "../img/modules/mortgageTerminology/flatRate/1.jpg",
+                "../img/modules/mortgageTerminology/flatRate/2.jpg",
+                "../img/modules/mortgageTerminology/flatRate/3.jpg",
+                "../img/modules/mortgageTerminology/flatRate/4.jpg",
+                "../img/modules/mortgageTerminology/flatRate/5.jpg",
+                "../img/modules/mortgageTerminology/flatRate/6.jpg",
+                "../img/modules/mortgageTerminology/flatRate/7.jpg",
+                "../img/modules/mortgageTerminology/flatRate/8.jpg",
+                "../img/modules/mortgageTerminology/flatRate/9.jpg",
+                "../img/modules/mortgageTerminology/flatRate/10.jpg",
+                "../img/modules/mortgageTerminology/flatRate/11.jpg",
+                "../img/modules/mortgageTerminology/flatRate/12.jpg",
+                "../img/modules/mortgageTerminology/flatRate/13.jpg",
+                "../img/modules/mortgageTerminology/flatRate/14.jpg"];
 var currentAudioIndex2 = 0;
 var au2 = new Audio();
 

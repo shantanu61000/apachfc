@@ -4,9 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mortgage Process</title>
-        <meta http-equiv="cache-control" content="no-cache" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Expires" content="-1" />
         <link rel="icon" href="../img/titielogo.ico" type="image/icon">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
@@ -22,7 +19,7 @@
     <!-------------navbar starts------------>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="../index.html"> <img src="../img/APAClogo.png" class="img-logo"> </a>
+        <a class="navbar-brand" href="../index.html"> <img src="../img/APAClogo.png" alt="APAC logo" class="img-logo"> </a>
         <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarResponse">
             <i class="fa fa-ellipsis-v text-white"></i>       
          </button>                            
@@ -55,9 +52,9 @@
 <div class="container">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb mt-2">
-            <a href="../index.html" class="breadcrumb-item">Home</a>
-            <a href="tableOfContents.html" class="breadcrumb-item">Aapka Training (TOC)</a>
-            <a href="#" class="breadcrumb-item active" aria-current="page">Mortgage Process</a>
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="tableOfContents.html">Aapka Training (TOC)</a></li>
+            <li class="breadcrumb-item"><a href="#" class="active" aria-current="page">Mortgage Process</a></li>
         </ol>
       </nav>
 </div>
@@ -174,9 +171,11 @@
               <div class="card-body bg-">
                   <table class="table table-responsive table-striped table-bordered">
                       <thead class="">
-                          <th>Process Stage</th>
-                          <th>Activity</th>
-                          <th>Responsibility</th>
+                        <tr>
+                            <th>Process Stage</th>
+                            <th>Activity</th>
+                            <th>Responsibility</th>
+                        </tr>
                       </thead>
                       <tbody>
                           <tr>
@@ -213,9 +212,11 @@
               <div class="card-body">
                   <table class="table table-responsive table-striped table-bordered">
                       <thead >
-                          <th>Process Stage</th>
-                          <th>Activity</th>
-                          <th>Responsibility</th>
+                          <tr>
+                            <th>Process Stage</th>
+                            <th>Activity</th>
+                            <th>Responsibility</th>
+                          </tr>
                       </thead>
                       <tbody>
                           <tr>
@@ -279,9 +280,11 @@
               <div class="card-body">
                   <table class="table table-responsive table-striped table-bordered">
                       <thead class="">
-                          <th>Process Stage</th>
-                          <th>Activity</th>
-                          <th>Responsibility</th>
+                         <tr>
+                            <th>Process Stage</th>
+                            <th>Activity</th>
+                            <th>Responsibility</th>
+                         </tr>
                       </thead>
                       <tbody>
                           <tr>
@@ -349,9 +352,11 @@
               <div class="card-body">
                   <table class="table table-responsive table-striped table-bordered">
                       <thead >
-                          <th>Process Stage</th>
-                          <th>Activity</th>
-                          <th>Responsibility</th>
+                          <tr>
+                            <th>Process Stage</th>
+                            <th>Activity</th>
+                            <th>Responsibility</th>
+                          </tr>
                       </thead>
                       <tbody>
                           <tr>
@@ -462,7 +467,7 @@
                                         <div class="col-10 col-sm-8 col-lg-6 mt-2" >
                                             <div class="card mb-2">
                                                 <div class="card-header" > <strong>Proof of Address</strong> </div>
-                                                <div class="card-body" id="idproof">
+                                                <div class="card-body" id="addressproof">
                                                     <div class=" row justify-content-center align-items-center p-2"> <div class="col-4"><img src="../img/modules/mortgageProcess/electricity.webp" class="img-fluid" alt="passport"></div> <div class="col-6 col-sm"> <span>Electricity Bill</span></div></div> 
                                                     <div class=" row justify-content-center align-items-center p-2"><div class="col-4"><img src="../img/modules/mortgageProcess/gas.png" class="img-fluid" alt="driving licence"> </div> <div class="col-6 col-sm"><span>Gas Bill</span><br></div> </div>
                                                     <div class=" row justify-content-center align-items-center p-2"> <div class="col-4"><img src="../img/modules/mortgageProcess/bank.webp" class="img-fluid" alt="Voter id card"></div> <div class="col-6 col-sm"><span>Bank Account Statement</span><br></div></div>   
@@ -497,9 +502,9 @@
                     </div>
                     <div class="row justify-content-center align-items-center pb-3">
              
-                            <span class="fas fa-backward" id="prev" onclick="prevAu();" role="button" style="font-size: 20px;"></span>&nbsp;&nbsp;&nbsp;
+                            <span class="fa fa-backward" id="prev" onclick="prevAu();" role="button" style="font-size: 20px;"></span>&nbsp;&nbsp;&nbsp;
                             <img src="../img/modules/mortgageTerminology/flatVsReducing/play.png" alt="play" id="play" role="button" class="img-fluid" onclick="playPause();">
-                            &nbsp;&nbsp;&nbsp; <span class="fas fa-forward" id="next" onclick="nextAu();" role="button" style="font-size: 20px"></span>
+                            &nbsp;&nbsp;&nbsp; <span class="fa fa-forward" id="next" onclick="nextAu();" role="button" style="font-size: 20px"></span>
     
                        
                     </div>
@@ -600,7 +605,7 @@
                             <li><a href="">Our Products</a></li>
                             <li><a href="">About us</a></li>
                             <li><a href="">Feedback</a></li>
-                        </li>
+                   
                     </ul>
                 </div>
             </div>
@@ -628,8 +633,7 @@
 <script src="../node_modules/wow.js/dist/wow.min.js"></script>
 <script src="../js/loadingScript.js"></script>
 
-<script>
-    
+<script>    
     var play= document.getElementById("play");
     var prev = document.getElementById("prev");
     var next = document.getElementById("next");

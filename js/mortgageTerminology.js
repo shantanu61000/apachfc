@@ -5,13 +5,13 @@ var play= document.getElementById("play");
   
     var status = 0;
     var audios = ["audio/flatVsReducing/1.ogg","audio/flatVsReducing/2.ogg","audio/flatVsReducing/3.ogg","audio/flatVsReducing/4.ogg","audio/flatVsReducing/5.ogg","audio/flatVsReducing/6.ogg","audio/flatVsReducing/7.ogg"];
-    var slides = ["../img/modules/mortgageTerminology/flatVsReducing/1.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/2.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/3.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/4.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/5.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/6.png",
-                    "../img/modules/mortgageTerminology/flatVsReducing/7.png"];
+    var slides = ["../img/modules/mortgageTerminology/flatVsReducing/1.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/2.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/3.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/4.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/5.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/6.jpg",
+                    "../img/modules/mortgageTerminology/flatVsReducing/7.jpg"];
     var currentAudioIndex = 0;
     var au = new Audio();
 

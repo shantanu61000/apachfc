@@ -66,7 +66,7 @@ body{
     padding-top:15px;
     overflow-x: hidden;
 }
-#intro h1 ,#events h1, #team h1, #vision h1, #apacHousing h1 ,#societalimpact h3 {
+#intro h1 ,#events h1, #team h1, #vision h1, #apacHousing h1 ,#societalimpact h1, #admired h1, #hfcvision h1 {
     padding: 10px;
     background-color: #002147;
     color: aliceblue;
@@ -89,6 +89,7 @@ body{
     color: #fff;
     font-weight: bolder;
     border-radius: 10px;
+    font-size: 18px;
 }
 .blink {
     animation: blink 3s infinite linear;
@@ -216,7 +217,7 @@ body{
         font-size: 16px;
     }
 
-    #intro h1,#events h1,#team h1, #vision h1,#apacHousing h1{
+    #intro h1,#events h1,#team h1, #vision h1,#apacHousing h1,#societalimpact h1,#admired h1, #hfcvision h1{
         font-size: 19px;
     }
     .founder li{
@@ -227,7 +228,7 @@ body{
     }
 
     .card-title h3{
-        font-size: 20px;
+        font-size: 17px;
     }
     .card img{
         height: 150px;
@@ -299,15 +300,17 @@ body{
         width: 100px;
     }
 
-
-
-    #intro h1,#events h1,#team h1 ,#vision h1,#apacHousing h1{
+    #intro h1,#events h1,#team h1 ,#vision h1,#apacHousing h1,#societalimpact h1,#admired h1, #hfcvision h1{
         font-size: 15px;
     }
     .card{
         margin-left:14px;
         margin-right:14px;
 
+    }
+    .card .card-title h3 {
+
+        font-size: 16px;
     }
     .card ul li {
         font-size: 11px;
